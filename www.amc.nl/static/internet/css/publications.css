@@ -1,0 +1,18 @@
+.publications {
+	padding-bottom: 15px;	
+}
+.publications h2 {
+	margin-bottom: 15px;	
+}
+.publications .backWrapper * {
+	color:#505050;
+	font-size: 1.6em;
+    line-height: 1.25em;
+}
+.publications .backWrapper a.back {
+	float:left;
+}
+.publications .backWrapper .date {
+	float:right;
+	font-style: italic;
+}

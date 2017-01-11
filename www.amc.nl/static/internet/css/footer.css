@@ -1,0 +1,74 @@
+#footer {
+}
+#footer .inner {
+	border-top: 1px solid #A7A9AC;
+	margin: 0 14px;
+	padding: 7px 0 0 12px;	
+}
+#footer h4 {
+	color: #AA273B;
+	font-weight: normal;
+	float: left;
+	line-height: 1em;
+}
+#footer .navigation {
+	float: right;	
+}
+#footer .navigation ul {
+	margin: 0;	
+}
+#footer .navigation ul li {
+	list-style: none;
+	float: left;
+	border-right: 1px solid #505050;
+	padding: 0 5px;
+	font-size: 1em;
+}
+#footer .navigation ul li.last {
+	padding-right: 0;
+	border-right: none;
+}
+#footer .navigation ul li a,
+#footer .navigation ul li span {
+	color: #505050;
+	font-size: 1.6em;
+	text-decoration: none;
+	line-height: 1em;
+}
+#footer .navigation ul li a:hover {
+	color: #AA253A;
+}
+#footer .navigation ul li .socialmedia span {
+	float: left;
+}
+#footer .navigation ul li .socialmedia a {
+	float: left;
+	height: 22px;
+	width: 22px;
+	text-indent: -9999px;
+	margin-left: 8px;
+}
+#footer .navigation ul li .socialmedia a.twitter {
+	background-position: -85px -3px;
+}
+#footer .navigation ul li .socialmedia a.twitter:hover {
+	background-position: -132px -3px;
+}
+#footer .navigation ul li .socialmedia a.facebook {
+	background-position: -85px -29px;
+}
+#footer .navigation ul li .socialmedia a.facebook:hover {
+	background-position: -132px -29px;
+}
+#footer .navigation ul li .socialmedia a.youtube {
+	background-position: -85px -55px;
+}
+#footer .navigation ul li .socialmedia a.youtube:hover {
+	background-position: -132px -55px;
+}
+#footer .navigation ul li .socialmedia a.linkedin{
+	background-position:-160px -4px;
+}
+#footer .navigation ul li .socialmedia a.linkedin:hover{
+	background-position:-160px -30px;
+}

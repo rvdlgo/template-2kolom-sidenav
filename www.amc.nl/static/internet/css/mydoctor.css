@@ -1,0 +1,37 @@
+.mydoctor .accordion dt {
+	border-bottom: 1px solid;
+}
+.mydoctor .accordion dt.open {
+	border-bottom: none;	
+}
+.mydoctor .accordion dt a {
+	color: #505050;
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+.mydoctor .accordion dt a span {
+	background-position: -36px -21px;
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 7px;	
+}
+.mydoctor .accordion dt.open a {
+	font-weight: bold;
+}
+.mydoctor .accordion dt.open a span {
+	background-position: -36px -5px;
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 7px;	
+}
+.mydoctor .accordion dd {
+	border-bottom: 1px solid;
+}
+.mydoctor .accordion dd img {
+	margin: 10px;	
+}

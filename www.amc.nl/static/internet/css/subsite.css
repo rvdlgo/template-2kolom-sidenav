@@ -1,0 +1,9 @@
+.navigation p {
+	font-size: 2.8em;
+	font-weight: bold;
+	font-style: italic;
+	color: #348295;
+}
+.navigation img {
+	margin-bottom: 5px;
+}

@@ -1,0 +1,34 @@
+.anchorelement {
+	margin-bottom: 20px;
+	overflow: hidden;
+	.borderd;
+}
+.anchorelement ul{
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+}
+.anchorelement ul li {
+	width: 100%;	
+	box-sizing: border-box;
+	padding: 2px 8px;
+	a{
+		text-decoration: none;
+		padding-right: 25px;
+		background: transparent url("@{images}/anchor.png") no-repeat right;
+ 	font-size: 0.85em;
+		color: darken(@color-2, 10%);
+		&:hover{
+		text-decoration: underline;}
+	}
+}
+
+a.backtotop {
+	display: block;
+	width: 50%;
+	text-align: right;
+	color: @color-2;
+	margin: 2px 0;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted lighten(@gray, 40%);
+}

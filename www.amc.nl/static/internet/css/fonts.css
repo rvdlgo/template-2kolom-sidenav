@@ -1,0 +1,42 @@
+/*
+@import url("http://webfonts.fontslive.com/css/f816e36f-400c-4f7e-b36c-5ba532960c55.css");
+*/
+
+@font-face {
+	font-family: Calibri;
+	src: url('../fonts/calibri.eot');
+    src: url('../fonts/calibri-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/calibri.woff') format('woff'),
+         url('../fonts/calibri.ttf') format('truetype'),
+         url('../fonts/calibri.svg.xml#webfontzwYpsOam') format('svg');
+    font-style: normal;
+}
+@font-face {
+	font-family: Calibri;
+	src: url('../fonts/calibrib.eot');
+    src: url('../fonts/calibrib-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/calibrib.woff') format('woff'),
+         url('../fonts/calibrib.ttf') format('truetype'),
+         url('../fonts/calibrib.svg.xml#webfontzwYpsOam') format('svg');
+	font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: Calibri;
+	src: url('../fonts/calibrii.eot');
+    src: url('../fonts/calibrii-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/calibrii.woff') format('woff'),
+         url('../fonts/calibrii.ttf') format('truetype'),
+         url('../fonts/calibrii.svg.xml#webfontzwYpsOam') format('svg');
+	font-style: italic;
+}
+@font-face {
+	font-family: Calibri;
+	src: url('../fonts/calibriz.eot');
+    src: url('../fonts/calibriz-.eot#iefix') format('embedded-opentype'),
+         url('../fonts/calibriz.woff') format('woff'),
+         url('../fonts/calibriz.ttf') format('truetype'),
+         url('../fonts/calibriz.svg.xml#webfontzwYpsOam') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}

@@ -1,0 +1,79 @@
+.accordion{box-sizing: border-box;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+ .borderd;
+}
+.accordion dt, .accordion dd{
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.accordionShowAll,
+.accordion dt {
+ border-bottom: 0;
+ border-top: 1px solid lighten(@gray, 40%);
+	padding: 10px;
+}
+.accordion dt:hover{
+  background-color: @color-2;
+}
+.accordion dt.open {
+	border-bottom: 0;	
+	background-color: @color-2;
+}
+.accordionShowAll a,
+.accordion dt a {
+	color: @gray;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	padding: 1px 20px 1px 0;
+	&:hover{
+		color: @white;
+	}
+}
+.accordionShowAll a {
+	text-align:right;
+	font-weight: normal;
+}
+.accordionShowAll a:hover {
+	cursor: pointer;	
+}
+.accordionShowAll a span.sprite,
+.accordion dt a span {
+	background-position: -36px -21px;
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 7px;	
+}
+.accordion dt.open a {
+	font-weight: bold;
+	color: @white;
+}
+.accordionShowAll a.open span.sprite,
+.accordion dt.open a span {
+	background-position: -36px -5px;
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 7px;	
+}
+.accordion dd {
+	display: none;
+}
+
+.accordion dd .accordion-inner{
+	border-bottom: 0;
+	margin: 20px 0 0 0;
+}
+
+.accordionShowAll a span.show,
+.accordionShowAll a.open span.hide {
+	display:inline-block;
+}
+.accordionShowAll a span.hide,
+.accordionShowAll a.open span.show {
+	display:none;
+}

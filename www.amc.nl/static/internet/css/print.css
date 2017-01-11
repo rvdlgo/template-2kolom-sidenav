@@ -1,0 +1,74 @@
+@media print {
+	* {
+		background: none;
+	}
+	
+	#container,
+	#main,
+	#main .right,
+	#main .right .left,
+	#main .pageTitle {
+		width: 100%;
+	}
+	
+	#bodybg,
+	#header .search,
+	#header .navigation,
+	#bgHeader,
+	#footer,
+	#main .contentnav,
+	#main .toolbox,
+	#main .backWrapper,
+	#main .left,
+	#main .right .right {
+		display: none;
+	}
+	
+	#container {
+		position: static;
+	}
+	
+	#header {
+		width: 100%;
+	}
+	
+	#header .logo {
+		left: 0;
+		top: 10px;
+	}
+	
+	#header .separator {
+		width: 100%;
+		border: 0;
+		background: none;
+		height: 11px;
+	}
+	
+	#header .separator img {
+		display: block;
+	}
+	
+	#main {
+		background: none;
+		min-height: 0;
+	}
+	
+	#main .right {
+		left: 0;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	#main .right .left {
+		display: block;
+	}
+	
+	table.table1 tr td {
+		border-top:2px solid #505050;
+	}
+	
+	#bcpm-footer {
+		display: none;
+	}
+}

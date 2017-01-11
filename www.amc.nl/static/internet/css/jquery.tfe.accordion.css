@@ -1,0 +1,9 @@
+.tfe-accordion .tfe-accordion-content {
+	display: block;
+	overflow-y: hidden;
+	height: 0;
+	position: relative;
+}
+.tfe-accordion .tfe-accordion-content.tfe-accordion-open {
+	height: auto;
+}

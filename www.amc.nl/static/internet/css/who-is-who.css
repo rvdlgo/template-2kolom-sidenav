@@ -1,0 +1,169 @@
+.alphabet {
+	float: left;
+	padding-bottom:10px;
+	width: 529px;
+}
+.alphabet span {
+	font-size: 1.8em;
+    font-weight: bold;
+	display:block;
+	text-align:center;
+	padding-bottom:20px;
+	line-height:1.25em;
+}
+.alphabet div {
+	background-image:url("../img/bgAlphabetItemRight.png");
+	background-position:520px top;
+	background-repeat:no-repeat;	
+}
+.alphabet div ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	background-image:url("../img/bgAlphabetItem.png");
+	background-repeat:repeat-x;
+	height:91px;
+	width:520px;	
+}
+.alphabet div ul  li {
+	list-style-position:outside;
+	display:block;
+	width:37px;
+	height:38px;	
+	float:left;	
+	margin-right:3px;
+	margin-bottom:6px;
+	font-size:1em;	
+}
+.alphabet div ul  li.last {
+	margin-right:0;
+}
+.alphabet div ul  li a, 
+.alphabet div ul  li span {
+	display:block;
+	width:37px;
+	height:38px;
+	float:left;
+	text-align:center;
+	color:#505050;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:2.4em;
+	line-height:38px;
+}
+.alphabet div ul  li span {
+	color:#A5A7AB;
+}
+.whoIsWho > p {
+	margin: 0 7px;
+}
+.whoIsWho .department {
+	padding-bottom: 15px;	
+}
+.whoIsWho .results h2 {
+    border-bottom: 2px solid #C9CACC;
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1.25em;
+}
+.whoIsWho .department .results h2 {
+    font-weight: bold;
+}
+.whoIsWho .department .results > div {
+    margin-bottom:16px;
+}
+.whoIsWho .results .col {
+    float: left;
+    margin-right: 21px;
+    width: 254px;
+	padding-bottom:10px;
+}
+.whoIsWho .results .col.last {
+    margin-right: 0;
+}
+.whoIsWho .results .col ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.whoIsWho .results .col ul li {
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	list-style-position:outside;	
+	padding:2px 0 3px;
+	position:relative;
+}
+.whoIsWho .results .col ul li  a {
+	text-decoration:none;
+	color:#505050;
+	display:block;
+	padding-right:27px;
+}
+.whoIsWho .results .col ul li a span {
+	background-image: url("../img/sprite.png");
+    background-position: -26px -80px;
+    background-repeat: repeat-x;
+    display: block;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 22px;
+}
+.whoIsWho .results .col ul li a em {
+	font-size: 0.8125em;
+	display: block;	
+}
+.whoIsWhoDetail table {
+	margin-bottom:30px;
+}
+.whoIsWhoDetail table th {
+	white-space: nowrap;	
+}
+.whoIsWhoDetail table tr.name td {
+	padding-top:10px;
+}
+.whoIsWhoDetail table p,
+.whoIsWhoDetail table ul {
+	padding-bottom: 0;
+	margin-left: 0;	
+}
+.whoIsWhoDetail table li {
+	list-style: none;	
+}
+.whoIsWhoDetail .addthis_toolbox {
+	margin-bottom:10px;
+}
+.whoIsWhoDetail .accordion {
+	margin-bottom:10px;
+}
+.whoIsWhoDetail .accordion .participants {
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+.whoIsWhoDetail .accordion ul {
+	margin-left: 20px;
+}
+.whoIsWhoDetail .backWrapper {
+	border-top: none;
+	margin-bottom:10px;
+}
+.whoIsWhoDetail .backWrapper * {
+	color:#505050;
+	font-size: 1.6em;
+    line-height: 1.25em;
+}
+.whoIsWhoDetail .backWrapper a.back {
+	float:left;
+}
+.whoIsWhoDetail .backWrapper .date {
+	float:right;
+	font-style: italic;
+}
+
+/*20150430 - IG (GX) */
+.whoIsWhoDetail .addthis_toolbox {
+	display:none;
+}

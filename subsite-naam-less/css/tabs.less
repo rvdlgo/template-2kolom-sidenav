@@ -1,0 +1,52 @@
+.tabs{
+ box-sizing: border-box;
+	margin-bottom: 20px;
+ .borderd;
+}
+.tabs div{
+ box-sizing: border-box;
+ padding: 10px;
+}
+.tabs .tabbar {
+ background: transparent url("#") no-repeat;
+ height: 40px;
+ overflow: hidden;
+	border-bottom: 1px solid lighten(@gray, 40%);
+}
+.tabs .tabbar li {
+ display: inline-block;
+ font-size: 1.3em;
+ padding: 10px;
+ height: 20px;
+ background-color: @white;
+}
+.tabs .tabbar li:hover{
+  background-color: @color-2;
+}
+.tabs .tabbar li a {
+  padding-left: 0;
+  margin: 0;
+  display: inline-block;
+}
+.tabs .tabbar li a .text {
+  color: @gray;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+.tabs .tabbar li a .text:hover {
+  color: @gray;
+}
+.tabs .tabbar li.ui-state-active {
+  background-color: @color-2;
+}
+.tabs .tabbar li a .tabRight {
+  display: none;
+}
+.tabs .tabbar li a:hover span {
+  cursor: pointer;
+}
+.tabs .tabbar li.ui-state-active a .text {
+  color: @white;
+}

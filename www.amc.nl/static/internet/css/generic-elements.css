@@ -1,0 +1,316 @@
+.box {
+	position: relative;
+	margin-bottom: 10px;
+}
+.box.form {
+	margin-right: 10px;	
+	padding-bottom: 10px;
+}
+.box .shadow {
+	background: transparent url("../img/dropshadow.png") no-repeat right bottom;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+.box .shadow .topRight {
+	background: transparent url("../img/dropshadow.png") no-repeat right top;
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	right: 0;
+	top: -10px;
+}
+.box .shadow .bottomLeft {
+	background: transparent url("../img/dropshadow.png") no-repeat left bottom;
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	left: -10px;
+	bottom: 0;
+}
+.box .shadow .inside {
+	background-color: #fff;
+	position: relative;
+	left: -10px;
+	top: -10px;
+	margin: 0;
+	padding: 0;
+}
+.ie6 .box .content,
+.ie7 .box .content {
+	zoom: 1;	
+}
+.box h4 {
+	font-size: 1.6em;
+	padding-bottom: 5px;
+}
+.home .box h4 {
+	padding-bottom: 0;
+}
+.box h4 a {
+	font-size: 1em;
+	text-decoration: none;
+	display: block;
+}
+.box h4 .collapsible,
+.box h4 .expandable {
+	position: relative;
+	padding-right: 20px;
+}
+.box h4 .collapsible span,
+.box h4 .expandable span {
+	background-position: -36px -5px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	height: 7px;
+	width: 7px;
+}
+.box h4 .expandable span {
+	background-position: -36px -21px;
+}
+.box h5 a {
+	color: #505050;
+	text-decoration: none;
+	display: block;
+}
+
+.box .top {
+	text-align: center;	
+	padding: 2px 25px 3px;
+}
+.box .top h4,
+.box .top h4 a {
+	color: #fff;
+}
+
+.box .bottom {
+	border-top: 2px solid;
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	width: 100%;
+}
+
+.box .links ul {
+	margin: 0;	
+}
+.box .links ul li {
+	list-style-type: none;
+}
+.box .links ul li a {
+	color: #505050;
+	font-weight: normal;	
+}
+
+
+
+.box .facilities {
+	padding-top: 7px;	
+}
+.box .facilities ul {
+	margin-left: 7px;
+}
+.box .facilities ul li {
+	list-style-type: none;
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+.box .facilities ul li a {
+	display: block;	
+}
+
+.pager {
+	border-top: 2px solid #C9CACC;
+	padding-top: 3px;
+}
+.pager ul {
+	margin: 0;
+}
+.pager ul li {
+	float: left;
+	margin-right: 2px;
+	list-style-type: none;
+}
+.pager ul li .empty {
+	display: block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+.pager ul li a {
+	background-color: #E5E5E5;
+	color: #505050;
+	display: block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.pager ul li a:hover {
+	color: #AA273B;
+}
+.pager ul li.active a {
+	color: #AA273B;
+	background-color: #fff;
+	font-weight: bold;
+}
+.pager ul li.prev a,
+.pager ul li.next a {
+	position: relative;	
+}
+.pager ul li.prev a span,
+.pager ul li.next a span {
+	position: absolute;
+	left: 4px;
+	top: 3px;
+	display: block;
+	height: 14px;
+	width: 12px;	
+}
+.pager ul li.prev a span {
+	background-position: -2px -33px;
+}
+.pager ul li.prev a.disabled span {
+	background-position: -34px -33px;
+}
+.pager ul li.next a span {
+	background-position: -18px -33px;
+}
+.pager ul li.next a.disabled span {
+	background-position: -50px -33px;
+}
+
+.downloads ul {
+	margin: 0;	
+}
+.downloads ul li {
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+.downloads ul li a {
+	position: relative;
+	padding-left: 20px;
+}
+.downloads ul li a span {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	height: 16px;
+	width: 16px;	
+}
+.downloads ul li a.pdf span {
+	background-position: 0 -48px;
+}
+.downloads ul li a.word span {
+	background-position: -16px -48px;
+}
+.downloads ul li a.powerpoint span {
+	background-position: -32px -48px;
+}
+.downloads ul li a.excel span {
+	background-position: -48px -48px;
+}
+.accordionShowAll,
+.accordion dt {
+	border-bottom: 1px solid;
+}
+.accordion dt.open {
+	border-bottom: none;	
+}
+.accordionShowAll a,
+.accordion dt a {
+	color: #505050;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	padding: 1px 20px 1px 0;
+}
+.accordionShowAll a {
+	text-align:right;
+	font-weight: normal;
+}
+.accordionShowAll a:hover {
+	cursor: pointer;	
+}
+.accordionShowAll a span.sprite,
+.accordion dt a span {
+	background-position: -36px -21px;
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 7px;	
+}
+.accordion dt.open a {
+	font-weight: bold;
+}
+.accordionShowAll a.open span.sprite,
+.accordion dt.open a span {
+	background-position: -36px -5px;
+    height: 7px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 7px;	
+}
+.accordion dd {
+	display: none;
+}
+
+.accordion dd .accordion-inner{
+	border-bottom: 1px solid;
+	margin: 0;
+}
+
+.accordionShowAll a span.show,
+.accordionShowAll a.open span.hide {
+	display:inline-block;
+}
+.accordionShowAll a span.hide,
+.accordionShowAll a.open span.show {
+	display:none;
+}
+/* IE Fixes */
+.ie6 .box .topRight {
+	right: 13px;
+}
+.ie6 .box .top {
+	zoom: 1;
+}
+.ie6 .box .links ul li {
+	padding-bottom: 1px;	
+}
+.ie6 .box .more span {
+	top: 5px;
+	right: 20px;
+}
+.ie6 .pager ul li.prev a span {
+	background: transparent url("../img/ie6/bgPrev.png") no-repeat 0 0;
+}
+.ie6 .pager ul li.prev a.disabled span {
+	background: transparent url("../img/ie6/bgPrevDisabled.png") no-repeat 0 0;
+}
+.ie6 .pager ul li.next a span {
+	background: transparent url("../img/ie6/bgNext.png") no-repeat 0 0;
+}
+.ie6 .pager ul li.next a.disabled span {
+	background: transparent url("../img/ie6/bgNextDisabled.png") no-repeat 0 0;
+}
+.ie6 .pager ul li.prev a:hover,
+.ie6 .pager ul li.next a:hover {
+	cursor: pointer;
+}
+.ie6 .downloads ul li a.pdf span {
+	background: transparent url("../img/ie6/bgDocumentPdf.png") no-repeat 0 0;	
+}
+.ie6 .downloads ul li a.word span {
+	background: transparent url("../img/ie6/bgDocumentWord.png") no-repeat 0 0;	
+}
+.ie6 .downloads ul li a.powerpoint span {
+	background: transparent url("../img/ie6/bgDocumentPowerpoint.png") no-repeat 0 0;	
+}
+.ie6 .downloads ul li a.excel span {
+	background: transparent url("../img/ie6/bgDocumentExcel.png") no-repeat 0 0;	
+}

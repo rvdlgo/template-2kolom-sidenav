@@ -1,0 +1,65 @@
+.events ul {
+	margin: 0;	
+}
+.events ul li {
+	list-style-type: none;
+	padding: 5px 0 10px;
+}
+.events ul li.alternate {
+	background-color: #E5E5E5;	
+}
+.events ul li h2 {
+	font-size: 1em;
+	margin-bottom: 0;
+}
+.events ul li a {
+	color: #505050;
+	display: block;
+	text-decoration: none;
+}
+.events ul li a.more {
+	color: #505050;
+}
+.events ul li a span {
+	display: block;
+	font-weight: normal;
+}
+.event {
+	padding-bottom: 15px;
+}
+.event h2 {
+	margin-bottom: 20px;	
+}
+.event .summary,
+.event .summary th,
+.event .summary td {
+	border: none;	
+	padding: 0;
+}
+.event .summary th {
+	background: none;
+}
+.event a.more {
+	border-top: 1px solid;
+	color: #505050;
+	margin-bottom: 18px;
+}
+.event a.more span.more {
+	color: #505050;
+}
+.event a.more span.sprite {
+	right: 0;	
+}
+.event .logos {
+	padding-bottom: 10px;
+}
+.event .logos .logo {
+	float: left;
+	margin-right: 20px;	
+}
+.event .logos .logo.last {
+	margin-right: 0;	
+}
+.event a.back {
+	color: #505050;	
+}

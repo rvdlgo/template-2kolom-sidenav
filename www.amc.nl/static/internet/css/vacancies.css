@@ -1,0 +1,58 @@
+.vacancies {
+	margin-bottom: 15px;	
+}
+.vacancies h2.category {
+	float: left;
+	width: 350px;	
+}
+.vacancies h2.amount {
+	float: left;	
+}
+.vacancies .accordion dt a .amount {
+	top: 0;
+	left: 350px;
+	height: auto;
+	width: auto;
+}
+.vacancies .accordion dd table,
+.vacancies .accordion dd table th,
+.vacancies .accordion dd table td {
+	border: none;	
+}
+.vacancies .accordion dd table thead th {
+	background: none;	
+	color: #505050;
+}
+.vacancies .accordion dd table tbody th {
+	font-weight: normal;
+}
+.vacancies .accordion dd table tbody td {
+	vertical-align: bottom;
+	width: 110px;
+}
+.vacancies .accordion dd table tbody th a,
+.vacancies .accordion dd table tbody td a {
+	color: #505050;
+	text-decoration: none;	
+}
+
+.vacancy {
+	padding-bottom: 15px;	
+}
+.vacancy .apply {
+	color: #505050;	
+	display: block;
+	font-weight: bold;
+	padding-right: 20px;
+	position: relative;
+	text-decoration: none;
+	float: right;	
+}
+.vacancy .apply .sprite {
+	background-position: -51px -20px;
+	bottom: 4px;
+	height: 8px;
+	position: absolute;
+	right: 5px;
+	width: 10px;	
+}

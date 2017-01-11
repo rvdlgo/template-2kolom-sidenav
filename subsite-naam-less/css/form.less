@@ -1,0 +1,89 @@
+form {
+margin: 0 0 0 25px;
+}
+.wmpform ul{margin:0;padding:0}
+.wmpform ul li{list-style-type:none;font-size:1em}
+.wmpform label,.wmpform input,.wmpform select,.wmpform textarea{float:none}
+.wmpform .wm-field{clear:both}
+.wmpform .wm-field-label{float:left;width:529px;clear:both;margin-bottom:5px}
+.wmpform .wm-field-label label{width:183px}
+.wmpform .wm-field-input{
+	width:100%;
+	float:left;
+	margin:0 0 5px 0;
+	padding:0
+}
+.wmpform .wm-field-input input,
+.wmpform .wm-field-input select,
+.wmpform .wm-field-input textarea {
+ width: 50%;
+ padding: 5px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+.wmpform .wm-field-input select {
+ height: 40px;
+ width: 53%;
+ box-shadow: none;
+}
+.wmpform .wm-field-input input:focus,
+.wmpform .wm-field-input select:focus,
+.wmpform .wm-field-input textarea:focus {
+ outline: none;
+	background-color: #f2f2f2;
+}
+.wmpform .wm-field-input input.date-pick{float:left;width:100px}
+.wmpform .wm-field-input .calendar{margin-top:2px;margin-left:3px}
+.wmpform .wm-field-input .wm-field-list input{border:0;float:left;clear:left;margin:5px 5px 0 0;padding:0;width:auto}
+.wmpform .wm-field-input .wm-field-list label{float:left}
+.wmpform .wm-field-helptext{line-height:14px;font-size:13px;font-style:italic;margin-left:0;margin-bottom:10px;width:100%;float:left;clear:both}
+.wmpform .wm_formelement_errors{color:#c00}
+.wmpform .wm_formelement_errors li{font-size:1.2em}
+.wmpform .gridelement{clear:both}
+.wmpform .gridelement table{width:25%;margin-bottom:0}
+.wmpform .gridelement table td{font-size:1em}
+
+.wmpform input.wm_input_back_button,
+.wmpform input.wm_input_next_button{
+	border:0;
+	background-color:@color-2;
+	color:@white;
+	padding:0 12px;
+	height: 40px;
+	margin:10px 0;
+	float: left;
+	.border-radius;
+	&:hover{
+		background-color:darken(@color-2, 15%);
+	}
+
+}
+.wmpform input.wm_input_back_button:hover,.wmpform input.wm_input_next_button:hover{cursor:pointer}
+.wmpform input.wm_input_back_button{float:left}
+.wmpform .buttonbar{background-color:#d1d3d4;margin:0 4px;position:relative;padding:0 40px;height:26px}
+.wmpform .buttonbar .buttonbarLeft{
+	background-position:-146px -84px;
+	position:absolute;
+	width:4px;
+	height:26px;
+	left:-4px;
+	top:0;
+}
+.wmpform .buttonbar .buttonbarRight{
+	background-position:-154px -84px;
+	position:absolute;
+	width:4px;height:26px;
+	right:-4px;
+	top:0;
+}
+.wmpform .formFragmentOverview{
+	border-bottom:1px;
+	border-style:dashed;
+	padding:4px;
+}
+.wmpform .formFragmentOverview p{font-weight:bold;padding:0}
+.wmpform .formFragmentOverview .overviewAnswer{padding-bottom:5px}
+.wmpform .formFragmentOverview .overviewAnswer p{font-weight:normal}
+.form .shadow {
+	border: 0;
+}

@@ -1,0 +1,150 @@
+.subnavigation {
+	margin-bottom: 15px;
+}
+
+/* General */
+.subnavigation a {
+	display: block;
+	font-size: 1.6em;
+	padding: 4px 5px;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+/* Level 1 */
+.subnavigation ul {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+}
+.subnavigation ul li {
+	list-style-type: none;
+	border-bottom: 1px solid #fff;
+	font-size: 1em;
+}
+.subnavigation ul li a.top {
+	background-position: -200px 0;
+	background-repeat: no-repeat;
+/*
+	max-height: 150px;
+*/
+}
+.subnavigation ul li a.top:hover {
+	background-position: 0 0;
+}
+.subnavigation ul li a {
+	color: #fff;
+	position: relative;
+/*
+	max-height: 32px;
+*/
+}
+.subnavigation ul li.parent a span {
+	background-position: -3px -3px;
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	right: 3px;
+	top: 7px;
+}
+.subnavigation ul li.active a span {
+	background-position: 999px 999px;
+}
+.subnavigation ul li.bottom {
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-bottom: none;
+	height: 10px;
+}
+
+/* Level 2 */
+.subnavigation ul li ul {
+	margin: 0;
+	padding: 0;
+}
+.subnavigation ul li ul li {
+	padding-left: 10px;
+	border-bottom: 1px solid;
+}
+.subnavigation ul li ul li.last {
+	border-bottom: none;
+}
+.subnavigation ul li ul li a {
+	background-color: #fff;
+	color: #505050;
+	padding-right: 20px;
+}
+.subnavigation ul li ul li.parent a span {
+	background-position: -19px -3px;
+}
+.subnavigation ul li ul li.active a span {
+	background-position: -19px -19px;
+}
+
+/* Level 3 */
+.subnavigation ul li ul li ul {
+	
+}
+.subnavigation ul li ul li ul li {
+	border-bottom: none;
+	position: relative;
+}
+.subnavigation ul li ul li ul li span {
+	background-position: -53px -5px;
+	position: absolute;
+	left: 3px;
+	top: 8px;
+	height: 6px;
+	width: 6px;
+}
+.ie7 .subnavigation ul li ul li ul li span {
+	top: 9px;
+}
+.subnavigation ul li ul li ul li a {
+	font-size: 1.4em;	
+}
+.subnavigation ul li ul li ul li a:hover {
+	color: #505050;	
+}
+
+/* Alternative version */
+.subnavigation ul li.back {
+	border-bottom: none;
+}
+.ie7 .subnavigation ul li.back {
+	margin-bottom: -3px;
+}
+.subnavigation ul li.back a {
+	background-position: -175px 0;
+	padding: 0 0 0 25px;
+}
+.subnavigation ul li.back a span.sprite {
+	background-position: -5px -66px;
+	position: absolute;
+	height: 13px;
+	width: 21px;
+	left: 2px;
+	top: 7px;
+}
+.subnavigation ul li.back a span.text {
+	background-position: -200px 0;
+	background-repeat: no-repeat;
+	float: left;
+	width: 165px;
+	padding: 4px 5px;
+}
+.subnavigation ul li.back a:hover span.text {
+	background-position: 0 0;
+}
+
+/* IE Fixes */
+.ie6 .subnavigation ul li.back {
+	border-bottom: 1px solid #fff;
+}
+.ie6 .subnavigation ul li.back a span {
+	background: transparent url("../img/ie6/bgSubnavigationBack.png") no-repeat;
+	left: -28px;
+}
+.ie6 .subnavigation ul li.back a:hover span {
+	cursor: pointer;	
+}

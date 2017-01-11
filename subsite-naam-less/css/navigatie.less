@@ -1,0 +1,80 @@
+.subnavigation ul li.bottom, .subnavigation ul li.back {
+  display: none;
+}
+
+//subnav
+.subnavigation {
+	height: 100%;
+	width: 100%;
+}
+.subnavigation ul {
+	background: transparent;
+	margin: 0;
+}
+.subnavigation ul li {
+	border: 0;
+}
+.subnavigation ul li:hover {
+	background-color: @color-2;
+}
+.subnavigation ul li a {
+ padding: 10px 20px 10px 10px;
+ color: @gray;
+	font-size: 1.4em;
+}
+.subnavigation ul li a:hover{
+	text-decoration: none;
+	color: @white;
+}
+.subnavigation ul li.active {
+	background-color: @color-2;
+}
+.subnavigation ul li.active a {
+  color: @white;
+}
+
+//level-2
+.subnavigation ul li.parent{
+}
+.subnavigation ul li.parent:hover {
+	background-color: transparent;
+}
+.subnavigation ul li.parent a:hover {
+	color: darken(@color-2, 10%);
+}
+//level-2 open
+.subnavigation ul li.parent.active {
+	background-color: transparent;
+	border: 1px solid lighten(@gray, 40%);
+	border-radius:4px;
+	width: 94%;
+	margin: 0 auto;
+	a{
+		color: @gray;
+		border-bottom: 1px solid lighten(@gray, 40%);
+	}
+	li.active a{
+		color: darken(@color-2, 10%);
+	}
+}
+.subnavigation ul li.parent.active a:hover{
+	color: darken(@color-2, 10%);
+}
+
+.subnavigation ul li.parent.active ul li:hover{
+	background-color: transparent;
+}
+.subnavigation ul li.parent.active ul li.active{
+	background-color: transparent;
+}
+.subnavigation ul li.parent.active li a{
+  border-bottom: 0
+}
+.subnavigation ul li.parent a span {
+	background-position: 2px 1px;
+	border-radius: 20px;
+	padding: 5px;
+}
+.subnavigation ul li ul li {
+	border: 0
+}

@@ -1,0 +1,12 @@
+/* Default */
+.ie7 .clearfix { display:inline-block; }
+
+/* Form */
+.ie7 form legend {
+	margin-left: -7px;	
+}
+
+/* Generic Elements */
+.ie7 .box .shadow .topRight {
+	top: -8px;
+}

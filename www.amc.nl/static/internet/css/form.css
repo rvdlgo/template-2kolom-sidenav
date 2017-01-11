@@ -1,0 +1,349 @@
+form legend {
+	font-size: 1.6em;
+	line-height: 1.25em;
+}
+form label,
+form .label {
+	font-size: 1.6em;
+	float: left;
+	width: 370px;
+	line-height: 1.25em;
+}
+
+form input,
+form select,
+form textarea {
+	font-family: Calibri, "Calibri Light", Arial, sans-serif;
+	border: 1px solid #929497;
+	float: left;
+	width: 342px;
+	font-size: 1.6em;
+	padding: 0;
+	color: #505050;
+}
+
+form input,
+form textarea {
+	padding: 1px 4px;
+}
+
+form textarea {
+	height: 100px;	
+}
+
+form select {
+	width: auto;	
+}
+
+form .radio,
+form .checkbox {
+	float: left;	
+}
+
+form .radio input,
+form .checkbox input {
+	border: none;
+	margin: 5px 5px 0 0;
+	width: auto;
+}
+
+form .radio label,
+form .checkbox label {
+	width: auto;
+}
+.filters.col3,
+.filters.col4 {
+	background-color:#A5C8D0;
+	width: 517px;
+	margin-bottom: 25px;
+	padding: 6px;
+}
+.filters.col3 .col {
+	width: 159px;
+}
+.filters.col4 .col {
+	width: 114px;
+}
+.filters.col3 fieldset legend,
+.filters.col4 fieldset legend {
+	font-weight: bold;
+	border: none;
+}
+.filters fieldset {
+	padding-bottom: 15px;
+}
+.filters fieldset legend {
+	font-style: italic;
+	width: 100%;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #C9CACC;
+}
+.filters fieldset .radio label, 
+.filters fieldset .checkbox label {
+	width: 134px;
+}
+.filters fieldset select {
+	width: 163px;
+}
+.filters fieldset .datepicker {
+	padding: 5px 0 0;	
+}
+.filters fieldset .datepicker label {
+	float: left;
+	width: 30px;
+}
+.filters fieldset .datepicker input {
+	padding: 0;
+	border-top: 1px solid #989A9D;
+	border-bottom: 1px solid #989A9D;
+	border-left: 1px solid #989A9D;
+	border-right: none;
+	float: left;
+	width: 100px;
+	height: 18px;
+	font-style: italic;
+}
+.filters .submit {
+	border-width: 1px;
+	padding: 0 4px;
+	width: 60px;
+	color: #fff;
+	height: 23px;
+	float: right;
+}
+.filters .submit:hover {
+	background-color: #505050;
+	border-color: #929497;
+}
+.calendar {
+	position: relative;
+	float: left;
+	width: 21px;
+	height: 18px;
+}
+.calendar .sprite {
+	background-position: -109px -57px;
+	position: absolute;
+	width: 21px;
+	height: 18px;
+}	
+
+.filters fieldset .datepicker .calendar {
+	border-top: 1px solid #989A9D;
+	border-bottom: 1px solid #989A9D;
+	border-right: 1px solid #989A9D; 
+	position: relative;
+	float: left;
+	width: 21px;
+	height: 18px;
+}
+
+/* IE Fixes */
+.ie6 form legend {
+	margin-left: -7px;
+	margin-right: -7px;
+}
+
+.ie6 form .radio input,
+.ie6 form .checkbox input,
+.ie7 form .radio input,
+.ie7 form .checkbox input {
+	margin-top: 0;
+}
+.ie8 form .radio input,
+.ie8 form .checkbox input {
+	margin-top: 3px;
+}
+
+/* GX Formulier Generator */
+.wmpform ul {
+	margin: 0;
+	padding: 0;
+}
+.wmpform ul li {
+	list-style-type: none;
+	font-size: 1em;
+}
+.wmpform label,
+.wmpform input,
+.wmpform select,
+.wmpform textarea {
+	float: none;
+}
+.wmpform .wm-field {
+	clear: both;	
+}
+.wmpform .wm-field-label {
+	float: left;
+	width: 529px;
+	clear: both;
+	margin-bottom: 5px;
+}
+.wmpform .wm-field-label label {
+	width: 183px;
+}
+.wmpform .wm-field-input {
+	width: 395px;
+	float: left;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+.wmpform .wm-field-input input,
+.wmpform .wm-field-input select,
+.wmpform .wm-field-input textarea {
+	width: 395px
+}
+.wmpform .wm-field-input input.date-pick {
+	float: left;
+	width: 100px;
+}
+.wmpform .wm-field-input .calendar {
+	margin-top: 2px;
+	margin-left: 3px;	
+}
+.wmpform .wm-field-input .wm-field-list input {
+	border: 0;
+	float: left;
+	clear: left;
+	margin: 5px 5px 0 0;
+	padding: 0;
+	width: auto;
+}
+.wmpform .wm-field-input .wm-field-list label {
+	float: left;
+}
+.wmpform .wm-field-helptext {
+	line-height: 14px;
+	font-size: 13px;
+	font-style: italic;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.wmpform .wm_formelement_errors {
+	color: #c00;
+}
+.wmpform .wm_formelement_errors li {
+	font-size: 1.2em;
+}
+.wmpform .gridelement {
+	clear: both;	
+}
+.wmpform .gridelement table {
+	width:25%;
+	margin-bottom: 0;	
+}	
+.wmpform .gridelement table td {
+	font-size: 1em;
+}
+.wmpform input.wm_input_back_button,
+.wmpform input.wm_input_next_button {
+	border: none;
+	background-color: #888B8E;
+	color: #fff;
+	padding: 2px 5px;
+	margin: 0;
+	width: auto;
+	height: 26px;
+}
+.wmpform input.wm_input_back_button:hover,
+.wmpform input.wm_input_next_button:hover {
+	cursor: pointer;
+}
+.wmpform input.wm_input_back_button {
+	float: left;
+}
+
+
+.wmpform .buttonbar {
+	background-color: #D1D3D4;
+	margin: 0 4px;
+	position: relative;
+	padding: 0 40px;
+	height: 26px;
+}
+.wmpform .buttonbar .buttonbarLeft {
+	background-position: -146px -84px;
+	position: absolute;
+	width: 4px;
+	height: 26px;
+	left: -4px;
+	top: 0;
+}
+.wmpform .buttonbar .buttonbarRight {
+	background-position: -154px -84px;
+	position: absolute;
+	width: 4px;
+	height: 26px;
+	right: -4px;
+	top: 0;
+}
+.wmpform .formFragmentOverview {
+	border-bottom:1px;
+	border-style:dashed;
+	padding: 4px;
+	padding-bottom: 15px;
+	margin-top 10px;
+}
+.wmpform .formFragmentOverview p {
+	font-weight:bold;
+	padding: 0;
+}
+.wmpform .formFragmentOverview .overviewAnswer {
+	padding-bottom: 5px;
+}
+.wmpform .formFragmentOverview .overviewAnswer p {
+    font-weight:normal;
+}
+#skz .wmpform .wm-field-label {
+	width: 340px;
+}
+.ie8 .wmpform input.wm_input_back_button {
+	margin-left: 0px;
+}
+
+.wmpform input.wm_input_next_button {
+	float: right;
+	margin-right: 16px;
+}
+.ie7 .wmpform input.wm_input_next_button {
+	margin-right: 12px;	
+}
+.ie7 .wmpform input.wm_input_back_button { 
+     position: relative; 
+     top: -2px;
+     padding-bottom: 0px;
+}
+.ie7 .wmpform input.wm_input_next_button {
+     position: relative;
+     top: -3px;
+     padding-bottom: 0px;
+}
+.ie8 .wmpform input.wm_input_next_button {
+	margin-right: 23px;	
+}
+.wmpform .buttonbar input.wm_input_next_button {
+	margin-right: 0px;
+}
+
+.ie6 .wmpform .wm-field-input,
+.ie6 .wmpform .wm-field-input input {
+	width: 375px;
+}
+
+.ie6 .wmpform .wm-field-input .wm-field-list input,
+.ie7 .wmpform .wm-field-input .wm-field-list input {
+	margin-top: 0;
+}
+.ie6 .wmpform .wm-field-input .wm-field-list input {
+	width: auto !important;
+}
+
+/* added 22-04-2015 */
+
+.poll input[type="radio"] {
+	float: none;
+	width: auto;	
+}

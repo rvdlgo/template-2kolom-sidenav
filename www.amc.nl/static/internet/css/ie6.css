@@ -1,0 +1,89 @@
+/* Default */
+.ie6 .clearfix {
+	height: 1%;
+}
+
+/* Layout */
+.ie6 #bodybg {
+	display: none;
+}
+body.ie6 {
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+
+.ie6 .box .inside h4 .collapsible span,
+.ie6 .box .inside h4 .expandable span {
+	top: 3px;
+	right: 20px;
+}
+.ie6 .box .inside h4 a:hover span {
+	cursor: pointer;
+}
+
+/* Header */
+.ie6 #header .separator {
+	bottom: -9px;
+}
+.ie6 #header .logo a:hover {
+	cursor: pointer;	
+}
+.ie6 #header .navigation {
+	bottom: -5px;
+}
+
+/* Homepage */
+.ie6 .home .row1 .box .inside {
+	height: 203px;	
+}
+.ie6 .home .row2 .box,
+.ie6 .home .row2 .box .inside {
+	height: 250px;	
+}
+
+/* Subnavigation */
+.ie6 .subnavigation {
+	zoom: 1;	
+}
+.ie6 .subnavigation ul li.parent a span {
+	background: transparent url("../img/ie6/bgSubnavigationLevel1Parent.png") no-repeat 0 0;
+}
+.ie6 .subnavigation ul li.active a span {
+	background: transparent url("../img/ie6/bgSubnavigationLevel1ParentOpen.png") no-repeat 0 0;
+}
+.ie6 .subnavigation ul li.active ul li.parent a span {
+	background: transparent url("../img/ie6/bgSubnavigationLevel2Parent.png") no-repeat 0 0;
+}
+.ie6 .subnavigation ul li.active ul li.active a span {
+	background: transparent url("../img/ie6/bgSubnavigationLevel2ParentOpen.png") no-repeat 0 0;
+}
+.ie6 .subnavigation ul li.active ul li.active ul li.active span {
+	left: -10px;
+}
+.ie6 .subnavigation ul li.parent a:hover span {
+	cursor: pointer;
+}
+.ie6 .subnavigation ul li ul li.last,
+.ie6 .subnavigation ul li ul li ul li {
+	border-bottom: 1px solid #fff;	
+}
+
+/* IE PNG Fix */
+.ie6 #header .separator,
+.ie6 #header .logo a,
+.ie6 #header .search ul li form .submit input,
+.ie6 #bgHeader,
+.ie6 .subnavigation ul li.parent a span,
+.ie6 .subnavigation.alternative ul li.back a span,
+.ie6 .home .box .news ul li a span,
+.ie6 .home .box .events ul li a span,
+.ie6 .home .box .themes ul li a span,
+.ie6 .more span.sprite,
+.ie6 .carrousel .pager .prev span,
+.ie6 .carrousel .pager .next span,
+.ie6 .pager ul li.prev a span,
+.ie6 .pager ul li.next a span,
+.ie6 #header .search .left,
+.ie6 #header .search .right {
+		behavior: url("static/js/iepngfix.htc.html");
+}

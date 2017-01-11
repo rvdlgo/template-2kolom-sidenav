@@ -1,0 +1,537 @@
+html {
+	
+}
+
+body {
+	color: #505050;
+	font: normal normal normal 62.5%/1.25em Calibri, "Calibri Light", Arial, sans-serif;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 2.4em;
+	font-weight: bold;
+	line-height: 1.25em;
+	margin-bottom: 8px;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+/*
+	max-height: 36px;
+*/
+}
+
+h3 {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+h5 {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+h6 {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+a {
+	font-size: 1.6em;
+	line-height: 1.25em;
+	color: #3366FF;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a {
+	font-size: 1em;	
+}
+
+a:hover {
+	
+}
+
+p {
+	font-size: 1.6em;
+	line-height: 1.25em;
+	padding-bottom: 15px;
+}
+
+p a {
+	font-size: 1em;
+}
+
+ul,
+ol,
+dl {
+	padding-bottom: 15px;
+}
+ul {
+	margin-left: 15px;	
+}
+ol {
+	margin-left: 30px;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+	padding-bottom: 0;
+}
+
+ol ol {
+	list-style-type: lower-alpha;	
+}
+
+ol ol ol {
+	list-style-type: lower-roman;	
+}
+
+li {
+	font-size: 1.6em;
+	line-height: 1.25em;
+}
+
+li li,
+li a,
+li p {
+	font-size: 1em;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+table tr th,
+table tr td {	
+	font-size: 1.6em;
+	line-height: 1.25em;
+	vertical-align: top;
+}
+
+table tr th {	
+	text-align: left;
+	font-weight: bold;
+	padding-right:5px;
+}
+
+table a,
+table li,
+table p {
+	font-size: 1em;	
+}
+
+table p,
+table ul,
+table ol {
+	margin-bottom: 0;
+}
+table.table1 tr th,
+table.table1 tr td {
+	padding:2px;
+} 
+table.table1 tr th {
+	background-color:#505050;
+	color:#FFF;
+	border-left:1px solid #FFF;
+}
+table.table1 tr th.first {
+	border-left:0 none #FFF;
+}
+table.table1 tr.alternate td,
+table.table1 tr.alternate th {
+	background-color:#E5E5E5;
+}
+table.table1 tfoot {
+	font-style:italic;
+}
+table.table1 tfoot td{
+  border-top:2px solid #505050;
+}
+.clear {
+	clear:both;
+	font-size:0;
+	height:0;
+	line-height:0;
+	margin:0;
+	padding:0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+	line-height: 0;
+    height: 0;
+}
+
+.sprite {
+	background-color: transparent;
+	background-repeat: no-repeat;		
+	background-image: url("../img/sprite.png");
+}
+
+.hide,
+.ui-tabs-hide {
+	display: none;	
+}
+
+.moreWrapper {
+	border-top: 1px solid;
+}
+li.moreWrapper {
+	margin-top: 3px;	
+}
+a.more {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 20px;
+}
+a.more span.sprite {
+	background-position: -51px -20px;
+	position: absolute;
+	width: 10px;
+	height: 8px;
+	bottom: 5px;
+	right: 5px;
+}
+.ie6 a.more span.sprite {
+	top: 5px;
+}
+
+.backWrapper {
+	border-top: 1px solid;
+}
+a.back {
+	color: #505050;
+	position: relative;
+	padding-left: 30px;
+	text-decoration: none;
+}
+a.back span.sprite {
+	background-position: -37px -66px;
+	position: absolute;
+	width: 21px;
+	height: 13px;
+	left: 0;
+	top: 5px;
+}
+
+.contentnav  {
+	float: right;
+	padding-bottom: 0;
+	margin: 15px 30px 0 0;
+}
+
+.contentnav li {
+	list-style-type: none;
+	list-style-position: outside;
+	float: left;
+	padding-left: 10px;
+}
+.contentnav li a {
+	color: #505050;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+}
+.contentnav li a span.sprite {
+	position: absolute;
+	width: 12px;
+	height: 14px;
+	top: 3px;
+}
+.contentnav li.prev a {
+	padding-left: 20px;
+}
+.contentnav li.prev a span.sprite {
+	background-position: -2px -33px;
+	left: 0;
+}
+.contentnav li.next a {
+	padding-right: 20px;
+}
+.contentnav li.next a span.sprite {
+	background-position: -18px -33px;
+	right: 0;
+}
+
+.img {
+	margin: 0 0 20px 0;
+}
+.img.floatLeft {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.img.floatLeft.last {
+	margin-right:0;
+}
+.img.floatRight {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+.img.noWrapSpace {
+	margin-left: 0;
+	margin-right: 0;	
+}
+.img img {
+	display: block;
+}
+.img .middle {
+	border-top: 1px solid #A7A7A7;
+	border-left: 1px solid #A7A7A7;
+	border-right: 1px solid #A7A7A7;
+	padding: 2px 5px 0 5px;
+	font-size: 1.6em;
+	line-height: 1.1em;
+	font-style: italic;
+}
+.img .middle .inside {
+/*
+	max-height: 36px;
+*/
+}
+.img .bottom {
+	border-bottom: 1px solid #A7A7A7;
+	margin: 0 6px;
+	height: 5px;
+	position: relative;
+}
+.img .bottom .leftcorner {
+	background-position: -117px -5px;
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	left: -6px;
+	bottom: -1px;
+}
+.img .bottom .rightcorner {
+	background-position: -117px -21px;
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	right: -6px;
+	bottom: -1px;
+}
+
+.toolbox {
+	height: 16px;
+	padding-bottom: 15px
+}
+.toolbox div {
+	float: left;
+}
+.toolbox a {
+	margin-right: 3px;	
+}
+.toolbox span {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.toolbox .send a {
+	background-position: -125px -83px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+.toolbox .send a:hover {
+	background-position: -125px -107px;
+}
+.toolbox .print a {
+	color: #505050;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 2px;
+	font-size: 1.2em;
+	padding: 5px 0 0 25px;
+}
+.toolbox .print a span {
+	background-position: -109px -30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 21px;
+}
+.toolbox .print a:hover span {
+	cursor: pointer;
+}
+.toolbox .mail a {
+	color: #505050;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	margin-left: 2px;
+	font-size: 1.2em;
+	padding: 5px 26px 0 0;
+}
+.toolbox .mail a span {
+	background-position: 0 -80px;
+	position: absolute;
+	top: 1px;
+	right: 0;
+	height: 22px;
+	width: 22px;
+}
+.toolbox .mail a:hover span {
+	background-position: 0 -104px;
+	cursor: pointer;
+}
+#at20mc a {
+	font-size: 1em;
+}
+
+.tabs .tabbar {
+	margin: 0;
+	padding: 0;
+	background-position: 0 24px;
+	background-repeat: repeat-x;
+}
+.tabs .tabbar li {
+	float: left;
+	list-style-type: none;
+}
+.tabs .tabbar li a {
+	background-position: 0 -3px;
+	background-repeat: no-repeat;
+	display: block;
+	padding-left: 7px;
+	float: left;
+	text-decoration: none;	
+}
+.tabs .tabbar li a .text {
+	background-position: 0 -57px;
+	background-repeat: repeat-x;
+	float: left;
+	font-weight: bold;
+	color: #505050;
+	width: 162px;
+	text-align: center;
+	padding: 3px 0 4px;
+}
+.tabs .tabbar li a .tabRight {
+	background-position: 0 -30px;
+	background-repeat: no-repeat;
+	float: left;
+	display: block;
+	height: 27px;
+	width: 7px;
+}
+.tabs .tabbar li a:hover span {
+	cursor: pointer;	
+}
+.tabs .tabbar li.ui-state-active a .text {
+	color: #fff;
+}
+
+.overlayContent {
+	border-left: 1px solid #ADADAD;
+	border-right: 1px solid #ADADAD;
+	padding: 8px;
+}
+
+.overlayContent.width1 {
+	width: 449px;
+}
+.overlayContent.width2 {
+	width: 918px;
+}
+.overlayContent .title {
+	font-size: 2.4em;
+	font-weight: bold;
+	line-height: 1.25em;
+	margin-bottom: 8px;
+}
+.overlayContent .close {
+	color: #505050;
+	text-decoration: none;
+	float: right;
+}
+
+.overlayContent .wmpform .wm_formelement_errors {
+	margin-left: 0;
+}
+
+#tooltip .tooltipText {
+	background: transparent url("../img/bgTooltip.png") repeat-x 0 -42px;
+	font-size: 1.6em;
+	line-height: 1em;
+	padding: 6px 0;
+}
+#tooltip .tooltipLeft {
+	background: transparent url("../img/bgTooltip.png") no-repeat 0 0;
+	position: absolute;
+	height: 28px;
+	width: 7px;
+	top: 0;
+	left: -7px;
+}
+#tooltip .tooltipRight {
+	background: transparent url("../img/bgTooltip.png") no-repeat -16px 0;
+	position: absolute;
+	height: 28px;
+	width: 7px;
+	top: 0;
+	right: -7px;
+}
+#tooltip .tooltipArrow {
+	background: transparent url("../img/bgTooltip.png") no-repeat 0 -28px;
+	position: absolute;
+	height: 14px;
+	width: 23px;
+	bottom: -11px;
+	right: 10px;
+}
+
+.textelement iframe {
+	padding-bottom: 15px;
+}
+
+a.backtotop {
+	color: #505050;
+	font-size: 1.2em;
+	font-weight: bold;
+	float: right;	
+	position: relative;
+	padding-right: 20px;
+	text-decoration: none;
+}
+a.backtotop .sprite {
+	background-position: -144px -111px;
+	display: block;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	top: 0;
+	right: 0;
+}

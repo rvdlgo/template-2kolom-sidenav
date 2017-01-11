@@ -1,0 +1,118 @@
+.blog {
+	margin-bottom: 15px;	
+}
+.blog .heading {
+	font-size: 1.6em;
+	font-style: italic;
+	line-height: 1.25em;
+	padding-bottom: 10px;
+/*
+	max-height: 40px;
+*/
+}
+.blog h2 {
+	font-size: 2.4em;	
+}
+.blog h2 a {
+	color: #505050;
+	text-decoration: none;
+}
+.blog .teaser p {
+/*
+	max-height: 120px;
+*/
+}
+.blog .visuals {
+	padding-bottom: 10px;
+}
+.blog .visuals img {
+	float: left;
+	margin-right: 20px;
+}
+.blog .visuals img.last {
+	margin-right: 0;
+}
+.blog .moreWrapper {
+	border-top: 1px solid;
+}
+.blog a.more {
+	color: #505050;
+}
+.blog form {
+	background-color: #FFF5E8;
+}
+.blog form legend {
+	font-weight: bold;
+	padding-left: 3px;
+	margin-bottom: 5px;
+}
+.blog form .box {
+	margin: 0 20px 15px 50px;
+	zoom: 1;
+}
+.blog form .box.last {
+	margin-bottom: 5px;	
+}
+.ie7 .blog form .box .shadow .topRight {
+	top: -10px;
+}
+.blog form input,
+.blog form textarea {
+	border: none;
+	float: none;
+	width: 459px;
+}
+.blog form textarea {
+	height: 115px;	
+}
+.blog form .submit {
+	text-align: right;	
+}
+.blog form .submit input {
+	background-color: transparent;
+	font-weight: bold;
+	width: 120px;
+	margin: 0;
+	padding: 0;	
+}
+.blog form .submit input:hover {
+	cursor: pointer;	
+}
+.author {
+	margin-bottom: 15px;	
+}
+.reactions ul {
+	margin: 0;
+	padding: 0;
+}
+.reactions ul li {
+	list-style: none;
+	border-top: 1px solid;
+}
+.reactions ul li div {
+	margin: 8px 0;
+}
+.reactions ul li.first {
+	border-top: none;	
+}
+.reactions ul li ul li {
+	margin: 0 0 0 50px;
+}
+.reactions ul li ul li div {
+	background-color: #FFF5E8;
+	padding: 3px 10px;
+}
+.reactions h4 {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1em;	
+}
+.reactions p {
+	padding-bottom: 0;	
+}
+.reactions .react {
+	color: #505050;
+	float: right;
+	text-decoration: none;
+	font-weight: bold;	
+}

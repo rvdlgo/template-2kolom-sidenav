@@ -1,0 +1,264 @@
+/* Default */
+.red .sprite {
+	background-image: url("../img/themes/red/sprite.png");	
+}
+.ie6 .red .sprite {
+	background: none;	
+}
+
+.red a:hover,
+.red .index .col ul li a:hover,
+.red .box .links ul li a:hover,
+.red .events ul li a.more:hover,
+.red .whoIsWho .results .col ul li a:hover,
+.red .home .box .news ul li a:hover,
+.red .home .box .news .bottom .more:hover,
+.red .home .box .phd ul li a:hover,
+.red .home .box .phd .bottom .more:hover,
+.red .home .box .ekz a:hover,
+.red .home .box .practicalInformation dl dt a:hover,
+.red .home .box .practicalInformation .more:hover,
+.red .home .box .blog p a:hover,
+.red .home .box .blog .more:hover,
+.red .home .box .themes ul li a:hover,
+.red .home .box .themes .bottom .more:hover,
+.red .home .box .campaign .more:hover,
+.red .tabs ul li a .text:hover,
+.red .accordion dt a:hover,
+.red .vacancies .accordion dd table tbody th a:hover,
+.red .vacancies .accordion dd table tbody td a:hover,
+.red .news ul li a.more:hover,
+.red .back:hover,
+.red .box h4 a:hover,
+.red .blogs .item h2 a:hover,
+.red  a.backtotop:hover,
+.red .whoIsWhoDetail .accordion .participants a:hover {
+	color: #AA273B;
+}
+
+/* Header */
+.red #header .separator {
+	background-color: #AA273B;
+	border-top-color: #4F564D;
+}
+
+/* Subnavigation */
+.red .subnavigation ul li a.top {
+	background-image: url("../img/themes/red/bgSubnavigationTop.png");
+}
+.red .subnavigation ul li.bottom {
+	background-image: url("../img/themes/red/bgSubnavigationBottom.png");
+}
+.red .subnavigation ul li a {
+	background-color: #AA273B;	
+}
+.red .subnavigation ul li a:hover {
+	background-color: #6F1927;
+	color: #fff;
+}
+.red .subnavigation ul li ul li {
+	border-bottom-color: #AA273B;	
+}
+.red .subnavigation ul li ul li a {
+	background-color: #fff;
+}
+.red .subnavigation ul li.active ul li a:hover,
+.red .subnavigation ul li.active ul li.active a {
+	background-color: transparent;
+	color: #AA273B;
+}
+.red .subnavigation ul li.active ul li.active ul li a {
+	color: #505050;	
+}
+.red .subnavigation ul li.active ul li.active ul li a:hover {
+	color: #505050;	
+	font-weight: bold;
+}
+.red .subnavigation ul li.active ul li.active ul li.active a {
+	font-weight: bold;
+}
+.ie6 .red .subnavigation ul li.active ul li.active ul li.active span {
+	background: transparent url("../img/themes/red/ie6/bgSubnavigationLevel3Active.gif") no-repeat;
+}
+
+/* Subnavigation Alternative */
+.red .subnavigation.alternative ul li {
+	border-bottom-color: #AA273B;
+}
+.red .subnavigation.alternative ul li a {
+	background-color: #fff;
+	color: #505050;
+}
+.red .subnavigation.alternative ul li a:hover {
+	background-color: #fff;
+	color: #AA273B;
+}
+.red .subnavigation.alternative ul li.active a {
+	color: #AA273B;
+	font-weight: bold;
+}
+.red .subnavigation ul li.back a {
+	background-color: #6F1927;
+	color: #fff;
+}
+.red .subnavigation ul li.back a:hover {
+	background-color: #6F1927;
+	color: #fff;
+}
+.red .subnavigation ul li.back a span.text {
+	background-color: #AA273B;
+	background-image: url("../img/themes/red/bgSubnavigationTop.png");
+	color: #fff;
+}
+.red .subnavigation ul li.back a:hover span.text {
+	background-color: #6F1927;
+	color: #fff;
+}
+
+/* Content Elements */
+.red h1 {
+	color: #AA273B;
+}
+.red table.table1 tr th {
+	background-color:#AA273B;	
+}
+.red table.table1 tbody tr th {
+	background-color: #fff;	
+}
+.red table.table1 tr.alternate td,
+.red table.table1 tr.alternate th {
+	background-color:#EED4D8; /*20% van #AA273B*/
+}
+.red table.table1 tfoot td{
+  border-top-color:#AA273B;
+}
+/* Generic Elements */
+.red .box h4,
+.red .box h4 a {
+	color: #505050;
+}
+.red .box .top h4,
+.red .box .top h4 a {
+	color: #fff;	
+}
+.red .box h4 .expandable {
+	color: #505050;	
+}
+.red .box h4 .collapsible {
+	color: #AA273B;
+}
+.ie6 .red .box h4 .collapsible span {
+	background: url("../img/themes/red/ie6/bgCollapsible.gif") no-repeat 0 0;	
+}
+.ie6 .red .box h4 .expandable span {
+	background: url("../img/themes/red/ie6/bgExpandable.gif") no-repeat 0 0;	
+}
+.red .box .top {
+	background: #AD2D40 url("../img/themes/red/bgBoxTop.png") no-repeat 0 0;	
+}
+.red .box .bottom {
+	border-top-color: #BF5D6C;
+}
+.red .more {
+	color: #AA273B;
+}
+.red .moreWrapper {
+	border-top-color: #AA273B;	
+}
+.red .backWrapper {
+	border-top-color: #AA273B;
+}
+
+/* Home Elements */
+.red .box .themes h4,
+.red .box .themes h4 a {
+	color: #AA273B;
+}
+.ie6 .red .home .box .news ul li a span,
+.ie6 .red .home .box .events ul li a span,
+.ie6 .red .home .box .themes ul li a span {
+	background: transparent url("../img/themes/red/ie6/bgMore.png") no-repeat 0 0;
+}
+
+/* My Doctor */
+.red .tabs .tabbar,
+.red .tabs .tabbar li.ui-state-active a,
+.red .tabs .tabbar li.ui-state-active a .text,
+.red .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/red/bgTabs.png");
+}
+.red .tabs .tabbar li.ui-state-active a .text,
+.red .tabs .tabbar li.ui-state-active a:hover .text {
+	color: #fff;
+}
+.ie6 .red .tabs .tabbar li,
+.ie6 .red .tabs .tabbar li.ui-state-active a,
+.ie6 .red .tabs .tabbar li.ui-state-active a .text,
+.ie6 .red .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/red/ie6/bgTabs.gif");
+}
+.red .tabs .tabbar li.ui-state-active {
+	background: none;	
+}
+.red .accordionShowAll,
+.red .accordion dt,
+.red .accordion dd .accordion-inner {
+	border-bottom-color: #AA273B;
+}
+.red .whoIsWho .results .col ul li {
+	border-bottom-color: #AA273B;
+}
+.red .whoIsWho .results ul li span {
+	background-image: url("../img/themes/red/sprite.png")!important;	
+}
+.red .alphabet div ul  li.active a {
+	background-color: #AA273B;
+	color: #fff;
+}
+.red .alphabet div ul  li a:hover {
+	background-color: #6F1927;
+	color: #fff;
+}
+/* Vacancies */
+.red .vacancies h2.category,
+.red .vacancies h2.amount {
+	color: #AA273B;
+}
+
+/* Events */s
+.red .event a.more {
+	border-top-color: #AA273B;
+}
+.red .event a.more:hover span.more {
+	color: #AA273B;
+}
+
+/* News */
+.red .news ul li a.more {
+	border-top-color: #AA273B;
+}
+
+/* Overlay */
+.red .overlay .title {
+	color: #AA273B;
+}
+
+/* Blog */
+.red .blog .moreWrapper {
+	border-top-color: #AA273B;
+}
+.red .reactions ul li {
+	border-top-color: #AA273B;
+}
+
+/* Form */
+.red .wmpform input.wm_input_back_button:hover,
+.red .wmpform input.wm_input_next_button:hover {
+	background-color: #AA273B;
+}
+
+@media print {
+	.red table.table1 tr td {
+		border-top:2px solid #AA273B;
+	}
+}

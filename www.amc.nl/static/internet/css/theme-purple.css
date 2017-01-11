@@ -1,0 +1,268 @@
+/* Default */
+.purple .sprite {
+	background-image: url("../img/themes/purple/sprite.png");
+}
+.ie6 .purple .sprite {
+	background: none;	
+}
+
+.purple a:hover,
+.purple .index .col ul li a:hover,
+.purple .box .links ul li a:hover,
+.purple .events ul li a.more:hover,
+.purple .whoIsWho .results .col ul li a:hover,
+.purple .home .box .news ul li a:hover,
+.purple .home .box .news .bottom .more:hover,
+.purple .home .box .phd ul li a:hover,
+.purple .home .box .phd .bottom .more:hover,
+.purple .home .box .ekz a:hover,
+.purple .home .box .practicalInformation dl dt a:hover,
+.purple .home .box .practicalInformation .more:hover,
+.purple .home .box .blog p a:hover,
+.purple .home .box .blog .more:hover,
+.purple .home .box .themes ul li a:hover,
+.purple .home .box .themes .bottom .more:hover,
+.purple .home .box .campaign .more:hover,
+.purple .tabs ul li a .text:hover,
+.purple .accordion dt a:hover
+.purple .vacancies .accordion dd table tbody th a:hover,
+.purple .vacancies .accordion dd table tbody td a:hover,
+.purple .news ul li a.more:hover,
+.purple .back:hover,
+.purple .box h4 a:hover,
+.purple .blogs .item h2 a:hover,
+.purple a.backtotop:hover,
+.purple .whoIsWhoDetail .accordion .participants a:hover {
+	color: #624870;
+}
+
+/* Header */
+.purple #header .separator {
+	background-color: #624870;
+	border-top-color: #4F564D;
+}
+
+/* Subnavigation */
+.purple .subnavigation ul li a.top {
+	background-image: url("../img/themes/purple/bgSubnavigationTop.png");
+}
+.purple .subnavigation ul li.bottom {
+	background-image: url("../img/themes/purple/bgSubnavigationBottom.png");
+}
+.purple .subnavigation ul li a {
+	background-color: #624870;	
+}
+.purple .subnavigation ul li a:hover {
+	background-color: #402f4a;
+	color: #fff;
+}
+.purple .subnavigation ul li ul li {
+	border-bottom-color: #624870;	
+}
+.purple .subnavigation ul li ul li a {
+	background-color: #fff;
+}
+.purple .subnavigation ul li.active ul li a:hover,
+.purple .subnavigation ul li.active ul li.active a {
+	background-color: transparent;
+	color: #624870;
+}
+.purple .subnavigation ul li.active ul li.active ul li a {
+	color: #505050;	
+}
+.purple .subnavigation ul li.active ul li.active ul li a:hover {
+	color: #505050;	
+	font-weight: bold;
+}
+.purple .subnavigation ul li.active ul li.active ul li.active a {
+	font-weight: bold;
+}
+.ie6 .purple .subnavigation ul li.active ul li.active ul li.active span {
+	background: transparent url("../img/themes/purple/ie6/bgSubnavigationLevel3Active.gif") no-repeat;
+}
+
+/* Subnavigation Alternative */
+.purple .subnavigation.alternative ul li {
+	border-bottom-color: #624870;
+}
+.purple .subnavigation.alternative ul li a {
+	background-color: #fff;
+	color: #505050;
+}
+.purple .subnavigation.alternative ul li a:hover {
+	background-color: #fff;
+	color: #624870;
+}
+.purple .subnavigation.alternative ul li.active a {
+	color: #624870;
+	font-weight: bold;
+}
+.purple .subnavigation ul li.back a {
+	background-color: #402f4a;
+	color: #fff;
+}
+.purple .subnavigation ul li.back a:hover {
+	background-color: #402f4a;
+	color: #fff;
+}
+.purple .subnavigation ul li.back a span.text {
+	background-color: #624870;
+	background-image: url("../img/themes/purple/bgSubnavigationTop.png");
+	color: #fff;
+}
+.purple .subnavigation ul li.back a:hover span.text {
+	background-color: #402f4a;
+	color: #fff;
+}
+
+/* Content Elements */
+.purple h1 {
+	color: #624870;
+}
+.purple table.table1 tr th {
+	background-color:#624870;	
+}
+.purple table.table1 tbody tr th {
+	background-color: #fff;	
+}
+.purple table.table1 tr.alternate td,
+.purple table.table1 tr.alternate th {
+	background-color: #E0DAE2; /*20% van #348295*/
+}
+.purple table.table1 tfoot td{
+  border-top-color: #624870;
+}
+/* Generic Elements */
+.purple .box h4,
+.purple .box h4 a {
+	color: #505050;
+}
+.purple .box .top h4,
+.purple .box .top h4 a {
+	color: #fff;	
+}
+.purple .box h4 .expandable {
+	color: #505050;	
+}
+.purple .box h4 .collapsible {
+	color: #624870;
+}
+.ie6 .purple .box h4 .collapsible span {
+	background: url("../img/themes/purple/ie6/bgCollapsible.gif") no-repeat 0 0;	
+}
+.ie6 .purple .box h4 .expandable span {
+	background: url("../img/themes/purple/ie6/bgExpandable.gif") no-repeat 0 0;	
+}
+
+.purple .box .top {
+	background: #36273D url("../img/themes/purple/bgBoxTop.png") no-repeat 0 0;	
+}
+.purple .box .bottom {
+	border-top-color: #624870;
+}
+.purple .more {
+	color: #624870;
+}
+.ie6 .purple .more span {
+	background: transparent url("../img/themes/purple/ie6/bgMore.png") no-repeat 0 0;
+}
+.purple .moreWrapper {
+	border-top-color: #624870;	
+}
+.purple .backWrapper {
+	border-top-color: #624870;
+}
+
+/* Home Elements */
+.purple .box .themes h4,
+.purple .box .themes h4 a {
+	color: #624870;
+}
+.ie6 .purple .home .box .news ul li a span,
+.ie6 .purple .home .box .events ul li a span,
+.ie6 .purple .home .box .themes ul li a span {
+	background: transparent url("../img/themes/purple/ie6/bgMore.png") no-repeat 0 0;
+}
+
+/* My Doctor */
+.purple .tabs .tabbar,
+.purple .tabs .tabbar li.ui-state-active a,
+.purple .tabs .tabbar li.ui-state-active a .text,
+.purple .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/purple/bgTabs.png");
+}
+.purple .tabs .tabbar li.ui-state-active a .text,
+.purple .tabs .tabbar li.ui-state-active a:hover .text {
+	color: #fff;
+}
+.ie6 .purple .tabs .tabbar li,
+.ie6 .purple .tabs .tabbar li.ui-state-active a,
+.ie6 .purple .tabs .tabbar li.ui-state-active a .text,
+.ie6 .purple .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/purple/ie6/bgTabs.gif");
+}
+.purple .tabs .tabbar li.ui-state-active {
+	background: none;	
+}
+.purple .accordionShowAll,
+.purple .accordion dt,
+.purple .accordion dd .accordion-inner {
+	border-bottom-color: #624870;
+}
+.purple .whoIsWho .results .col ul li {
+	border-bottom-color: #624870;
+}
+.purple .whoIsWho .results ul li span{
+	background-image: url("../img/themes/purple/sprite.png")!important;	
+}
+.purple .alphabet div ul  li.active a {
+	background-color: #624870;
+	color: #fff;
+}
+.purple .alphabet div ul  li a:hover {
+	background-color: #402f4a;
+	color: #fff;
+}
+/* Vacancies */
+.purple .vacancies h2.category,
+.purple .vacancies h2.amount {
+	color: #624870;
+}
+
+/* Events */
+.purple .event a.more {
+	border-top: 1px solid #624870;
+}
+.purple .event a.more:hover span.more {
+	color: #624870;
+}
+
+/* News */
+.purple .news ul li a.more {
+	border-top-color: #624870;
+}
+
+/* Overlay */
+.purple .overlay .title {
+	color: #348295;
+}
+
+/* Blog */
+.purple .blog .moreWrapper {
+	border-top-color: #624870;
+}
+.purple .reactions ul li {
+	border-top-color: #624870;
+}
+
+/* Form */
+.purple .wmpform input.wm_input_back_button:hover,
+.purple .wmpform input.wm_input_next_button:hover {
+	background-color: #624870;
+}
+
+@media print {
+	.purple table.table1 tr td {
+		border-top:2px solid #624870;
+	}
+}

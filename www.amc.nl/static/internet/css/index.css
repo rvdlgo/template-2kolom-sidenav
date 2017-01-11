@@ -1,0 +1,21 @@
+.index .col {
+	float: left;
+	width: 224px;
+	margin-right: 20px;
+}
+.index .col.last {
+	margin-right: 0;	
+}
+.index .col h2 {
+	border-bottom: 1px solid #939598;
+}
+.index .col ul {
+	margin: 0;	
+}
+.index .col ul li {
+	list-style-type: none;
+}
+.index .col ul li a {
+	color: #505050;
+	text-decoration: none;
+}

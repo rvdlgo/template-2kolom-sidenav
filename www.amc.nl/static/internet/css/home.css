@@ -1,0 +1,349 @@
+/* Layout */
+.home {
+	padding-top: 10px;	
+}
+.home .col {
+	float: left;
+	margin-right: 20px;
+}
+.home .col.last {
+	margin-right: 0;	
+}
+.home .col.width1 {
+	width: 346px;	
+}
+.home .col.width2 {
+	width: 163px;
+}
+.home .col.width3 {
+	width: 224px;
+}
+
+.ie7 .home .col.width1 .box .bottom {
+	width: 246px;
+}
+.ie7 .home .col.width2 .box .bottom {
+	width: 163px;
+}
+.ie7 .home .col.width3 .box .bottom {
+	width: 224px;
+}
+
+.home .row1,
+.home .row2 {
+	margin-bottom: 14px;
+}
+.home .row1 .box,
+.home .row1 .box .inside {
+	min-height: 200px;
+}
+.home .row2 .box,
+.home .row2 .box .inside {
+	min-height: 250px;	
+}
+
+/* General */
+.home .box h4,
+.home .box p,
+.home .box li {
+	font-size: 1.6em;	
+}
+
+/* Carrousel */
+.home .carrousel {
+	margin-bottom: 0;	
+}
+
+/* Accordion */
+.home .accordion dd {
+	text-align: center;	
+}
+/* Discours */
+.home .textelement {
+	text-align: center;	
+}
+
+/* Contact */
+.home .box .contact .sprite {
+	background-image: url("../img/themes/red/sprite.png");
+}
+.home .box .contact h4,
+.home .box .contact h4 a {
+	color: #AA273B;
+}
+.home .box .contact p {
+	padding-bottom: 8px;
+	line-height: 1.2em;
+}
+.home .box .contact .bottom {
+	border-top-color: #AA273B;
+}
+.home .box .contact .more {
+	color: #505050;	
+}
+.home .box .contact .more:hover {
+	color: #AA273B;
+}
+
+/* Vacancies */
+.home .box .vacancies {
+	margin-bottom: 0;	
+}
+.home .box .vacancies h4,
+.home .box .vacancies h4 a {
+	color: #505050;	
+}
+.home .box .vacancies p {
+	padding-bottom: 0;
+/*
+	max-height: 40px;
+*/
+}
+
+/* News */
+.home .box .news ul {
+	margin: 0;
+}
+.home .box .news ul li {
+	list-style: none;
+	padding: 3px 5px 3px 5px;	
+}
+.home .box .news ul li a {
+	padding-left: 0 !important;
+	color: #505050;
+	display: block;
+	position: relative;
+	padding-right: 20px;
+	text-decoration: none;
+}
+.home .box .news ul li a div.title {
+/*
+	max-height: 40px;
+*/
+}
+.home .box .news ul li a span.sprite {
+	background-position: -51px -20px;
+	position: absolute;
+	width: 10px;
+	height: 8px;
+	bottom: 5px;
+	right: 0;	
+}
+.home .box .news .bottom .more {
+	margin-left: 5px;
+	color: #505050;
+}
+
+/* EKZ */
+.home .box .ekz a {
+	color: #505050;
+	text-decoration: none;	
+}
+.home .box .ekz h4 {
+	font-size: 1.8em;
+	margin-bottom: 10px;
+}
+.home .box .ekz p {
+	padding-bottom: 0;
+}
+
+/* Events */
+.home .box .events .top {
+	background: #AA273B url("../img/themes/red/bgBoxTop.png") no-repeat 0 0;		
+}
+.home .box .events .sprite {
+	background-image: url("../img/themes/red/sprite.png");
+}
+.home .box .events ul {
+	margin: 0;	
+}
+.home .box .events ul li {
+	list-style-type: none;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+}
+.home .box .events ul li a {
+	padding-left: 0 !important;
+	color: #505050;
+	display: block;
+	position: relative;
+	padding-right: 20px;
+	text-decoration: none;
+}
+.home .box .events ul li a:hover {
+	color: #AA273B;
+}
+.home .box .events ul li a div.title {
+/*
+	max-height: 40px;
+*/
+}
+.home .box .events ul li a span.sprite {
+	background-position: -51px -20px;
+	position: absolute;
+	width: 10px;
+	height: 8px;
+	bottom: 5px;
+	right: 0;	
+}
+.home .box .events .bottom {
+	border-top-color: #AA273B;
+}
+.home .box .events .bottom .more {
+	color: #505050;
+	margin-left: 5px;
+}
+.home .box .events .bottom .more:hover {
+	color: #AA273B;
+}
+
+/* phd */
+.home .box .phd ul {
+	margin: 0;	
+}
+.home .box .phd ul li {
+	list-style-type: none;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+}
+.home .box .phd ul li a {
+	padding-left: 0 !important;
+	color: #505050;
+	display: block;
+	position: relative;
+	padding-right: 20px;
+	text-decoration: none;
+}
+.home .box .phd ul li a span {
+	background-position: -51px -20px;
+	position: absolute;
+	width: 10px;
+	height: 8px;
+	bottom: 5px;
+	right: 0;	
+}
+.home .box .phd .bottom .more {
+	color: #505050;
+	margin-left: 5px;
+}
+
+/* Pratical Information */
+.home .box .practicalInformation h4 {
+	color: #505050;
+}
+.home .box .practicalInformation dl {
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+.home .box .practicalInformation dl dt a {
+	color: #505050;
+	display: block;
+	text-decoration: none;
+	position: relative;
+	padding-right: 20px;
+}
+.home .box .practicalInformation dl dt a span {
+	background-position: -36px -21px;
+	height: 7px;
+	width: 7px;
+	top: 7px;
+	right: 5px;
+	position: absolute;	
+}
+.home .box .practicalInformation dl dt.open a span {
+	background-position: -36px -5px;
+}
+.home .box .practicalInformation p {
+	padding-bottom: 0;
+/*
+	max-height: 60px;
+*/
+}
+.home .box .practicalInformation .more {
+	color: #505050;	
+}
+
+/* Blog */
+.home .box .blog img {
+	margin-bottom: 10px;	
+}
+.home .box .blog p {
+	font-size: 1.6em;
+	padding: 0 5px;
+	padding-bottom: 32px;
+}
+.home .box .blog a {
+	color: #505050;
+	text-decoration: none;
+}
+.home .box .blog .bottom {
+	padding-top: 2px;
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+}
+.home .box .blog .more {
+	margin-left: 5px;
+	color: #505050;	
+	border-top: 0;
+}
+
+/* Themes */
+.home .box .themes h4 {
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+.home .box .themes ul {
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.home .box .themes ul li {
+	list-style-type: none;
+	line-height: 1em;
+}
+.home .box .themes ul li a {
+	display: block;
+	color: #505050;
+	text-decoration: none;
+	line-height: 1.05em;
+	padding-right: 20px;
+	position: relative;
+}
+.home .box .themes ul li a span {
+	background-position: -51px -20px;
+	position: absolute;
+	width: 10px;
+	height: 8px;
+	bottom: 5px;
+	right: 0;	
+}
+.home .box .themes .bottom .more {
+	color: #505050;	
+}
+.home .box .themes .bottom .more span {
+	right: 0;
+}
+
+.home .box .campaign .more {
+	color: #505050;
+}
+
+/* IE Fixes */
+.ie6 .home .box .topRight {
+	right: 0;
+}
+.ie6 .home .box .news ul li a span,
+.ie6 .home .box .events ul li a span {
+	top: 5px;
+	right: 5px;	
+}
+.ie6 .home .box .themes ul li a span {
+	top: 5px;	
+}
+.ie6 .home .box .practicalInformation dl dd {
+	display: none;	
+}
+.ie6 .home .box .themes ul li {
+	padding-bottom: 1px;	
+}

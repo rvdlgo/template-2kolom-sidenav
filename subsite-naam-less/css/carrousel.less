@@ -1,0 +1,60 @@
+.carrousel {
+	width: 100%;
+	height: auto;
+	position: relative;
+ margin: 0 0 20px 0;
+ overflow: hidden;
+}
+.carrousel .images{
+ display: block;
+	width: 100%!important;
+	border: 0;
+	background-color: #ccc;
+	div, img{
+		width: 100%!important;}
+}
+.carrousel .description {
+	width: 100%;
+	background:  transparent url("@{images}/bg_description.png") repeat 0 0;
+	padding-top: 5px;
+	bottom: 0;
+	p{
+		color: @gray;
+		a {
+			color: @gray;}
+	}
+	h4 a {
+		font-family: "Signika";
+		font-weight: 400;
+		color: @gray;}
+}
+.carrousel .description 
+.carrousel .pager {
+	top: 5px;
+	right: 5px;
+}
+.carrousel .pager .bar a {
+	font-size: 1.8em;
+	display: inline-block;
+	padding: 2px 5px;
+	background: @white;
+	background:  fade(@white, 50%);
+	color: darken(@color-2, 20%);
+	.borderd;
+	.transitions;
+	&:hover{
+		.box-shadow;
+		background: @white;}
+}
+.carrousel .pager .bar a.active {
+ color: @gray;
+		&:hover{
+			box-shadow: none;
+			background: fade(@white, 50%)}
+}
+.carrousel .pager .prev span {
+ display: none;
+}
+.carrousel .pager .next {
+ display: none;
+}

@@ -1,0 +1,112 @@
+.carrousel {
+	height: 200px;
+	width: 346px;
+	position: relative;
+	margin-bottom: 15px;
+}
+.carrousel.large {
+	height: 300px;
+	width: 529px;
+}
+.carrousel .description {
+	background: transparent url("../img/bgCarrousel.png") no-repeat 0 0;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 58px;
+}
+.ie7 .carrousel .description {
+	bottom: 3px;	
+}
+.carrousel .description .inside {
+	padding: 2px 4px 0;
+}
+.carrousel .description h4 {
+	color: #fff;	
+}
+.carrousel .description p {
+	color: #fff;
+	padding-bottom: 0;	
+	line-height: 1em;
+}
+.carrousel .description a,
+.carrousel .description h4 a, 
+.carrousel .description p a {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1em;
+	text-decoration: none;
+}
+.carrousel .description h4 {
+/*
+	max-height: 16px;
+*/
+}
+.carrousel .description p {
+/*
+	max-height: 42px;
+*/
+}
+.carrousel .pager {
+	border-top: none;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
+}
+.carrousel .pager .bar {
+	float: left;	
+}
+.carrousel .pager a {
+	color: #505050;
+	float: left;
+	font-weight: bold;
+	display: block;
+	margin: 0 3px;
+	text-decoration: none;
+	font-size: 1.7em;
+}
+.carrousel .pager a:hover {
+	color: #fff;	
+}
+.carrousel .pager .prev,
+.carrousel .pager .next {
+	padding-top: 4px;	
+} 
+.carrousel .pager .prev span,
+.carrousel .pager .next span {
+	display: block;
+	height: 14px;
+	width: 12px;
+}
+.carrousel .pager .prev span {
+	background-position: -2px -33px;
+}
+.carrousel .pager .prev:hover span {
+	background-position: -34px -33px;
+}
+.carrousel .pager .next span {
+	background-position: -18px -33px;
+}
+.carrousel .pager .next:hover span {
+	background-position: -50px -33px;
+}
+
+.carrousel .pager .active,
+.carrousel .pager .active:hover {
+	color: #AA273B;
+}
+
+/* IE fixes */
+.ie6 .carrousel .pager .prev span {
+	background: transparent url("../img/ie6/bgPrev.png") no-repeat 0 0;	
+}
+.ie6 .carrousel .pager .next span {
+	background: transparent url("../img/ie6/bgNext.png") no-repeat 0 0;	
+}
+.ie6 .carrousel .pager .prev:hover,
+.ie6 .carrousel .pager .next:hover {
+	cursor: pointer;	
+}

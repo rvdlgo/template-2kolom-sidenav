@@ -1,0 +1,267 @@
+/* Default */
+.green .sprite {
+	background-image: url("../img/themes/green/sprite.png");
+}
+.ie6 .green .sprite {
+	background: none;
+}
+
+.green a:hover,
+.green .index .col ul li a:hover,
+.green .box .links ul li a:hover,
+.green .events ul li a.more:hover,
+.green .whoIsWho .results .col ul li a:hover,
+.green .home .box .news ul li a:hover,
+.green .home .box .news .bottom .more:hover,
+.green .home .box .phd ul li a:hover,
+.green .home .box .phd .bottom .more:hover,
+.green .home .box .ekz a:hover,
+.green .home .box .practicalInformation dl dt a:hover,
+.green .home .box .practicalInformation .more:hover,
+.green .home .box .blog p a:hover,
+.green .home .box .blog .more:hover,
+.green .home .box .themes ul li a:hover,
+.green .home .box .themes .bottom .more:hover,
+.green .home .box .campaign .more:hover,
+.green .tabs ul li a .text:hover,
+.green .accordion dt a:hover,
+.green .vacancies .accordion dd table tbody th a:hover,
+.green .vacancies .accordion dd table tbody td a:hover,
+.green .news ul li a.more:hover,
+.green .back:hover,
+.green .box h4 a:hover,
+.green .blogs .item h2 a:hover,
+.green a.backtotop:hover,
+.green .whoIsWhoDetail .accordion .participants a:hover {
+	color: #4AB92C;
+}
+
+/* Header */
+.green #header .separator {
+	background-color: #41BA20;
+	border-top-color: #4F564D;
+}
+
+/* Subnavigation */
+.green .subnavigation ul li a.top {
+	background-image: url("../img/themes/green/bgSubnavigationTop.png");
+}
+.green .subnavigation ul li.bottom {
+	background-image: url("../img/themes/green/bgSubnavigationBottom.png");
+}
+.green .subnavigation ul li a {
+	background-color: #41BA20;	
+}
+.green .subnavigation ul li a:hover {
+	background-color: #287815;
+	color: #fff;
+}
+.green .subnavigation ul li ul li {
+	border-bottom-color: #4AB92C;	
+}
+.green .subnavigation ul li ul li a {
+	background-color: #fff;
+}
+.green .subnavigation ul li.active ul li a:hover,
+.green .subnavigation ul li.active ul li.active a {
+	background-color: transparent;
+	color: #41BA20;
+}
+.green .subnavigation ul li.active ul li.active ul li a {
+	color: #505050;	
+}
+.green .subnavigation ul li.active ul li.active ul li a:hover {
+	color: #505050;	
+	font-weight: bold;
+}
+.green .subnavigation ul li.active ul li.active ul li.active a {
+	font-weight: bold;
+}
+.ie6 .green .subnavigation ul li.active ul li.active ul li.active span {
+	background: transparent url("../img/themes/green/ie6/bgSubnavigationLevel3Active.gif") no-repeat;
+}
+
+/* Subnavigation Alternative */
+.green .subnavigation.alternative ul li {
+	border-bottom-color: #4AB92C;
+}
+.green .subnavigation.alternative ul li a {
+	background-color: #fff;
+	color: #505050;
+}
+.green .subnavigation.alternative ul li a:hover {
+	background-color: #fff;
+	color: #4AB92C;
+}
+.green .subnavigation.alternative ul li.active a {
+	color: #4AB92C;
+	font-weight: bold;
+}
+.green .subnavigation ul li.back a {
+	background-color: #2B7B15;
+	color: #fff;
+}
+.green .subnavigation ul li.back a:hover {
+	background-color: #287815;
+	color: #fff;
+}
+.green .subnavigation ul li.back a span.text {
+	background-color: #4AB92C;
+	background-image: url("../img/themes/green/bgSubnavigationTop.png");
+	color: #fff;
+}
+.green .subnavigation ul li.back a:hover span.text {
+	background-color: #287815;
+	color: #fff;
+}
+
+/* Content Elements */
+.green h1 {
+	color: #41BA20;
+}
+.green table.table1 tr th {
+	background-color:#41BA20;	
+}
+.green table.table1 tbody tr th {
+	background-color: #fff;	
+}
+.green table.table1 tr.alternate td,
+.green table.table1 tr.alternate th {
+	background-color:#D9F1D2; /*20% van #41BA20*/
+}
+.green table.table1 tfoot td{
+  border-top-color:#41BA20;
+}
+/* Generic Elements */
+.green .box h4,
+.green .box h4 a {
+	color: #505050;
+}
+.green .box .top h4,
+.green .box .top h4 a {
+	color: #fff;	
+}
+.green .box h4 .expandable {
+	color: #505050;	
+}
+.green .box h4 .collapsible {
+	color: #41BA20;
+}
+.ie6 .green .box h4 .collapsible span {
+	background: url("../img/themes/green/ie6/bgCollapsible.gif") no-repeat 0 0;
+}
+.ie6 .green .box h4 .expandable span {
+	background: url("../img/themes/green/ie6/bgExpandable.gif") no-repeat 0 0;
+}
+.green .box .top {
+	background: #45BC24 url("../img/themes/green/bgBoxTop.png") no-repeat 0 0;	
+}
+.green .box .bottom {
+	border-top-color: #A0DD90;
+}
+.green .more {
+	color: #41BA20;
+}
+.ie6 .green .more span.sprite {
+	background: transparent url("../img/themes/green/ie6/bgMore.png") no-repeat 0 0;
+}
+.green .moreWrapper {
+	border-top-color: #41BA20;	
+}
+.green .backWrapper {
+	border-top-color: #41BA20;
+}
+
+/* Home Elements */
+.green .box .themes h4,
+.green .box .themes h4 a {
+	color: #41BA20;
+}
+.ie6 .green .home .box .news ul li a span,
+.ie6 .green .home .box .events ul li a span,
+.ie6 .green .home .box .themes ul li a span {
+	background: transparent url("../img/themes/green/ie6/bgMore.png") no-repeat 0 0;
+}
+
+/* My Doctor */
+.green .tabs .tabbar,
+.green .tabs .tabbar li.ui-state-active a,
+.green .tabs .tabbar li.ui-state-active a .text,
+.green .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/green/bgTabs.png");
+}
+.green .tabs .tabbar li.ui-state-active a .text,
+.green .tabs .tabbar li.ui-state-active a:hover .text {
+	color: #fff;
+}
+.ie6 .green .tabs .tabbar li,
+.ie6 .green .tabs .tabbar li.ui-state-active a,
+.ie6 .green .tabs .tabbar li.ui-state-active a .text,
+.ie6 .green .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/green/ie6/bgTabs.gif");
+}
+.green .tabs .tabbar li.ui-state-active {
+	background: none;	
+}
+.green .accordionShowAll,
+.green .accordion dt,
+.green .accordion dd .accordion-inner {
+	border-bottom-color: #4AB92C;
+}
+.green .whoIsWho .results .col ul li {
+	border-bottom-color: #4AB92C;
+}
+.green .whoIsWho .results ul li span{
+	background-image: url("../img/themes/green/sprite.png")!important;	
+}
+.green .alphabet div ul  li.active a {
+	background-color: #4AB92C;
+	color: #fff;
+}
+.green .alphabet div ul  li a:hover {
+	background-color: #287815;
+	color: #fff;
+}
+/* Vacancies */
+.green .vacancies h2.category,
+.green .vacancies h2.amount {
+	color: #41BA20;
+}
+
+/* Events */
+.green .event a.more {
+	border-top: 1px solid #4AB92C;
+}
+.green .event a.more:hover span.more {
+	color: #4AB92C;
+}
+
+/* News */
+.green .news ul li a.more {
+	border-top-color: #4AB92C;
+}
+
+/* Overlay */
+.green .overlay .title {
+	color: #41BA20;
+}
+
+/* Blog */
+.green .blog .moreWrapper {
+	border-top-color: #41BA20;
+}
+.green .reactions ul li {
+	border-top-color: #41BA20;
+}
+
+/* Form */
+.green .wmpform input.wm_input_back_button:hover,
+.green .wmpform input.wm_input_next_button:hover {
+	background-color: #41BA20;
+}
+
+@media print {
+	.green table.table1 tr td {
+		border-top:2px solid #41BA20;
+	}
+}

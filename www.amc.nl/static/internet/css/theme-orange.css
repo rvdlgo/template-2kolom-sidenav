@@ -1,0 +1,267 @@
+/* Default */
+.orange .sprite {
+	background-image: url("../img/themes/orange/sprite.png");	
+}
+.ie6 .orange .sprite {
+	background: none;	
+}
+
+.orange a:hover,
+.orange .index .col ul li a:hover,
+.orange .box .links ul li a:hover,
+.orange .events ul li a.more:hover,
+.orange .whoIsWho .results .col ul li a:hover,
+.orange .home .box .news ul li a:hover,
+.orange .home .box .news .bottom .more:hover,
+.orange .home .box .phd ul li a:hover,
+.orange .home .box .phd .bottom .more:hover,
+.orange .home .box .ekz a:hover,
+.orange .home .box .practicalInformation dl dt a:hover,
+.orange .home .box .practicalInformation .more:hover,
+.orange .home .box .blog p a:hover,
+.orange .home .box .blog .more:hover,
+.orange .home .box .themes ul li a:hover,
+.orange .home .box .themes .bottom .more:hover,
+.orange .home .box .campaign .more:hover,
+.orange .tabs ul li a .text:hover,
+.orange .accordion dt a:hover,
+.orange .vacancies .accordion dd table tbody th a:hover,
+.orange .vacancies .accordion dd table tbody td a:hover,
+.orange .news ul li a.more:hover,
+.orange .back:hover,
+.orange .box h4 a:hover,
+.orange .blogs .item h2 a:hover,
+.orange a.backtotop:hover,
+.orange .whoIsWhoDetail .accordion .participants a:hover {
+	color: #FF971A;
+}
+
+/* Header */
+.orange #header .separator {
+	background-color: #FF971A;
+	border-top-color: #4F564D;
+}
+
+/* Subnavigation */
+.orange .subnavigation ul li a.top {
+	background-image: url("../img/themes/orange/bgSubnavigationTop.png");
+}
+.orange .subnavigation ul li.bottom {
+	background-image: url("../img/themes/orange/bgSubnavigationBottom.png");
+}
+.orange .subnavigation ul li a {
+	background-color: #FF971A;	
+}
+.orange .subnavigation ul li a:hover {
+	background-color: #A76311;
+	color: #fff;
+}
+.orange .subnavigation ul li ul li {
+	border-bottom-color: #FF971A;	
+}
+.orange .subnavigation ul li ul li a {
+	background-color: #fff;
+}
+.orange .subnavigation ul li.active ul li a:hover,
+.orange .subnavigation ul li.active ul li.active a {
+	background-color: transparent;
+	color: #FF971A;
+}
+.orange .subnavigation ul li.active ul li.active ul li a {
+	color: #505050;	
+}
+.orange .subnavigation ul li.active ul li.active ul li a:hover {
+	color: #505050;	
+	font-weight: bold;
+}
+.orange .subnavigation ul li.active ul li.active ul li.active a {
+	font-weight: bold;
+}
+.ie6 .orange .subnavigation ul li.active ul li.active ul li.active span {
+	background: transparent url("../img/themes/orange/ie6/bgSubnavigationLevel3Active.gif") no-repeat;
+}
+
+/* Subnavigation Alternative */
+.orange .subnavigation.alternative ul li {
+	border-bottom-color: #FF971A;
+}
+.orange .subnavigation.alternative ul li a {
+	background-color: #fff;
+	color: #505050;
+}
+.orange .subnavigation.alternative ul li a:hover {
+	background-color: #fff;
+	color: #FF971A;
+}
+.orange .subnavigation.alternative ul li.active a {
+	color: #FF971A;
+	font-weight: bold;
+}
+.orange .subnavigation ul li.back a {
+	background-color: #A76311;
+	color: #fff;
+}
+.orange .subnavigation ul li.back a:hover {
+	background-color: #A76311;
+	color: #fff;
+}
+.orange .subnavigation ul li.back a span.text {
+	background-color: #FF971A;
+	background-image: url("../img/themes/orange/bgSubnavigationTop.png");
+	color: #fff;
+}
+.orange .subnavigation ul li.back a:hover span.text {
+	background-color: #A76311;
+	color: #fff;
+}
+
+/* Content Elements */
+.orange h1 {
+	color: #FF971A;
+}
+.orange table.table1 tr th {
+	background-color:#FF971A;	
+}
+.orange table.table1 tbody tr th {
+	background-color: #fff;	
+}
+.orange table.table1 tr.alternate td,
+.orange table.table1 tr.alternate th {
+	background-color:#FFEAD1; /*20% van #FF971A*/
+}
+.orange table.table1 tfoot td{
+  border-top-color:#FF971A;
+}
+/* Generic Elements */
+.orange .box h4,
+.orange .box h4 a {
+	color: #505050;
+}
+.orange .box .top h4,
+.orange .box .top h4 a {
+	color: #fff;	
+}
+.orange .box h4 .expandable {
+	color: #505050;	
+}
+.orange .box h4 .collapsible {
+	color: #FF971A;
+}
+.ie6 .orange .box h4 .collapsible span {
+	background: url("../img/themes/orange/ie6/bgCollapsible.gif") no-repeat 0 0;
+}
+.ie6 .orange .box h4 .expandable span {
+	background: url("../img/themes/orange/ie6/bgExpandable.gif") no-repeat 0 0;
+}
+.orange .box .top {
+	background: #FF991F url("../img/themes/orange/bgBoxTop.png") no-repeat 0 0;	
+}
+.orange .box .bottom {
+	border-top-color: #FFCB8D;
+}
+.orange .more {
+	color: #FF971A;
+}
+.ie6 .orange .more span.sprite {
+	background: transparent url("../img/themes/orange/ie6/bgMore.png") no-repeat 0 0;
+}
+.orange .moreWrapper {
+	border-top-color: #FF971A;	
+}
+.orange .backWrapper {
+	border-top-color: #FF971A;
+}
+
+/* Home Elements */
+.orange .box .themes h4,
+.orange .box .themes h4 a {
+	color: #FF971A;
+}
+.ie6 .orange .home .box .news ul li a span,
+.ie6 .orange .home .box .events ul li a span,
+.ie6 .orange .home .box .themes ul li a span {
+	background: transparent url("../img/themes/orange/ie6/bgMore.png") no-repeat 0 0;
+}
+
+/* My Doctor */
+.orange .tabs .tabbar,
+.orange .tabs .tabbar li.ui-state-active a,
+.orange .tabs .tabbar li.ui-state-active a .text,
+.orange .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/orange/bgTabs.png");
+}
+.orange .tabs .tabbar li.ui-state-active a .text,
+.orange .tabs .tabbar li.ui-state-active a:hover .text {
+	color: #fff;
+}
+.ie6 .orange .tabs .tabbar li,
+.ie6 .orange .tabs .tabbar li.ui-state-active a,
+.ie6 .orange .tabs .tabbar li.ui-state-active a .text,
+.ie6 .orange .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/orange/ie6/bgTabs.gif");
+}
+.orange .tabs .tabbar li.ui-state-active {
+	background: none;	
+}
+.orange .accordionShowAll,
+.orange .accordion dt,
+.orange .accordion dd .accordion-inner {
+	border-bottom-color: #FF971A;
+}
+.orange .whoIsWho .results .col ul li {
+	border-bottom-color: #FF971A;
+}
+.orange .whoIsWho .results ul li span{
+	background-image: url("../img/themes/orange/sprite.png")!important;	
+}
+.orange .alphabet div ul  li.active a {
+	background-color: #FF971A;
+	color: #fff;
+}
+.orange .alphabet div ul  li a:hover {
+	background-color: #A76311;
+	color: #fff;
+}
+/* Vacancies */
+.orange .vacancies h2.category,
+.orange .vacancies h2.amount {
+	color: #FF971A;
+}
+
+/* Events */
+.orange .event a.more {
+	border-top: 1px solid #FF971A;
+}
+.orange .event a.more:hover span.more {
+	color: #FF971A;
+}
+
+/* News */
+.orange .news ul li a.more {
+	border-top-color: #FF971A;
+}
+
+/* Overlay */
+.orange .overlay .title {
+	color: #FF971A;
+}
+
+/* Blog */
+.orange .blog .moreWrapper {
+	border-top-color: #FF971A;
+}
+.orange .reactions ul li {
+	border-top-color: #FF971A;
+}
+
+/* Form */
+.orange .wmpform input.wm_input_back_button:hover,
+.orange .wmpform input.wm_input_next_button:hover {
+	background-color: #FF971A;
+}
+
+@media print {
+	.orange table.table1 tr td {
+		border-top:2px solid #FF971A;
+	}
+}

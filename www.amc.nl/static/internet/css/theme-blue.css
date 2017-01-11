@@ -1,0 +1,268 @@
+/* Default */
+.blue .sprite {
+	background-image: url("../img/themes/blue/sprite.png");
+}
+.ie6 .blue .sprite {
+	background: none;	
+}
+
+.blue a:hover,
+.blue .index .col ul li a:hover,
+.blue .box .links ul li a:hover,
+.blue .events ul li a.more:hover,
+.blue .whoIsWho .results .col ul li a:hover,
+.blue .home .box .news ul li a:hover,
+.blue .home .box .news .bottom .more:hover,
+.blue .home .box .phd ul li a:hover,
+.blue .home .box .phd .bottom .more:hover,
+.blue .home .box .ekz a:hover,
+.blue .home .box .practicalInformation dl dt a:hover,
+.blue .home .box .practicalInformation .more:hover,
+.blue .home .box .blog p a:hover,
+.blue .home .box .blog .more:hover,
+.blue .home .box .themes ul li a:hover,
+.blue .home .box .themes .bottom .more:hover,
+.blue .home .box .campaign .more:hover,
+.blue .tabs ul li a .text:hover,
+.blue .accordion dt a:hover
+.blue .vacancies .accordion dd table tbody th a:hover,
+.blue .vacancies .accordion dd table tbody td a:hover,
+.blue .news ul li a.more:hover,
+.blue .back:hover,
+.blue .box h4 a:hover,
+.blue .blogs .item h2 a:hover,
+.blue a.backtotop:hover,
+.blue .whoIsWhoDetail .accordion .participants a:hover {
+	color: #348295;
+}
+
+/* Header */
+.blue #header .separator {
+	background-color: #348295;
+	border-top-color: #4F564D;
+}
+
+/* Subnavigation */
+.blue .subnavigation ul li a.top {
+	background-image: url("../img/themes/blue/bgSubnavigationTop.png");
+}
+.blue .subnavigation ul li.bottom {
+	background-image: url("../img/themes/blue/bgSubnavigationBottom.png");
+}
+.blue .subnavigation ul li a {
+	background-color: #348295;	
+}
+.blue .subnavigation ul li a:hover {
+	background-color: #225663;
+	color: #fff;
+}
+.blue .subnavigation ul li ul li {
+	border-bottom-color: #348295;	
+}
+.blue .subnavigation ul li ul li a {
+	background-color: #fff;
+}
+.blue .subnavigation ul li.active ul li a:hover,
+.blue .subnavigation ul li.active ul li.active a {
+	background-color: transparent;
+	color: #348295;
+}
+.blue .subnavigation ul li.active ul li.active ul li a {
+	color: #505050;	
+}
+.blue .subnavigation ul li.active ul li.active ul li a:hover {
+	color: #505050;	
+	font-weight: bold;
+}
+.blue .subnavigation ul li.active ul li.active ul li.active a {
+	font-weight: bold;
+}
+.ie6 .blue .subnavigation ul li.active ul li.active ul li.active span {
+	background: transparent url("../img/themes/blue/ie6/bgSubnavigationLevel3Active.gif") no-repeat;
+}
+
+/* Subnavigation Alternative */
+.blue .subnavigation.alternative ul li {
+	border-bottom-color: #348295;
+}
+.blue .subnavigation.alternative ul li a {
+	background-color: #fff;
+	color: #505050;
+}
+.blue .subnavigation.alternative ul li a:hover {
+	background-color: #fff;
+	color: #348295;
+}
+.blue .subnavigation.alternative ul li.active a {
+	color: #348295;
+	font-weight: bold;
+}
+.blue .subnavigation ul li.back a {
+	background-color: #225663;
+	color: #fff;
+}
+.blue .subnavigation ul li.back a:hover {
+	background-color: #225663;
+	color: #fff;
+}
+.blue .subnavigation ul li.back a span.text {
+	background-color: #348295;
+	background-image: url("../img/themes/blue/bgSubnavigationTop.png");
+	color: #fff;
+}
+.blue .subnavigation ul li.back a:hover span.text {
+	background-color: #225663;
+	color: #fff;
+}
+
+/* Content Elements */
+.blue h1 {
+	color: #348295;
+}
+.blue table.table1 tr th {
+	background-color:#348295;	
+}
+.blue table.table1 tbody tr th {
+	background-color: #fff;	
+}
+.blue table.table1 tr.alternate td,
+.blue table.table1 tr.alternate th {
+	background-color:#D6E6EA; /*20% van #348295*/
+}
+.blue table.table1 tfoot td{
+  border-top-color:#348295;
+}
+/* Generic Elements */
+.blue .box h4,
+.blue .box h4 a {
+	color: #505050;
+}
+.blue .box .top h4,
+.blue .box .top h4 a {
+	color: #fff;	
+}
+.blue .box h4 .expandable {
+	color: #505050;	
+}
+.blue .box h4 .collapsible {
+	color: #348295;
+}
+.ie6 .blue .box h4 .collapsible span {
+	background: url("../img/themes/blue/ie6/bgCollapsible.gif") no-repeat 0 0;	
+}
+.ie6 .blue .box h4 .expandable span {
+	background: url("../img/themes/blue/ie6/bgExpandable.gif") no-repeat 0 0;	
+}
+
+.blue .box .top {
+	background: #378496 url("../img/themes/blue/bgBoxTop.png") no-repeat 0 0;	
+}
+.blue .box .bottom {
+	border-top-color: #67A1B0;
+}
+.blue .more {
+	color: #348295;
+}
+.ie6 .blue .more span {
+	background: transparent url("../img/themes/blue/ie6/bgMore.png") no-repeat 0 0;
+}
+.blue .moreWrapper {
+	border-top-color: #348295;	
+}
+.blue .backWrapper {
+	border-top-color: #348295;
+}
+
+/* Home Elements */
+.blue .box .themes h4,
+.blue .box .themes h4 a {
+	color: #348295;
+}
+.ie6 .blue .home .box .news ul li a span,
+.ie6 .blue .home .box .events ul li a span,
+.ie6 .blue .home .box .themes ul li a span {
+	background: transparent url("../img/themes/blue/ie6/bgMore.png") no-repeat 0 0;
+}
+
+/* My Doctor */
+.blue .tabs .tabbar,
+.blue .tabs .tabbar li.ui-state-active a,
+.blue .tabs .tabbar li.ui-state-active a .text,
+.blue .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/blue/bgTabs.png");
+}
+.blue .tabs .tabbar li.ui-state-active a .text,
+.blue .tabs .tabbar li.ui-state-active a:hover .text {
+	color: #fff;
+}
+.ie6 .blue .tabs .tabbar li,
+.ie6 .blue .tabs .tabbar li.ui-state-active a,
+.ie6 .blue .tabs .tabbar li.ui-state-active a .text,
+.ie6 .blue .tabs .tabbar li.ui-state-active a .tabRight {
+	background-image: url("../img/themes/blue/ie6/bgTabs.gif");
+}
+.blue .tabs .tabbar li.ui-state-active {
+	background: none;	
+}
+.blue .accordionShowAll,
+.blue .accordion dt,
+.blue .accordion dd .accordion-inner{
+	border-bottom-color: #348295;
+}
+.blue .whoIsWho .results .col ul li {
+	border-bottom-color: #348295;
+}
+.blue .whoIsWho .results ul li span{
+	background-image: url("../img/themes/blue/sprite.png")!important;	
+}
+.blue .alphabet div ul  li.active a {
+	background-color: #348295;
+	color: #fff;
+}
+.blue .alphabet div ul  li a:hover {
+	background-color: #225663;
+	color: #fff;
+}
+/* Vacancies */
+.blue .vacancies h2.category,
+.blue .vacancies h2.amount {
+	color: #348295;
+}
+
+/* Events */
+.blue .event a.more {
+	border-top: 1px solid #348295;
+}
+.blue .event a.more:hover span.more {
+	color: #348295;
+}
+
+/* News */
+.blue .news ul li a.more {
+	border-top-color: #348295;
+}
+
+/* Overlay */
+.blue .overlay .title {
+	color: #348295;
+}
+
+/* Blog */
+.blue .blog .moreWrapper {
+	border-top-color: #348295;
+}
+.blue .reactions ul li {
+	border-top-color: #348295;
+}
+
+/* Form */
+.blue .wmpform input.wm_input_back_button:hover,
+.blue .wmpform input.wm_input_next_button:hover {
+	background-color: #348295;
+}
+
+@media print {
+	.blue table.table1 tr td {
+		border-top:2px solid #348295;
+	}
+}

@@ -1,0 +1,120 @@
+#container {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	padding-top: 105px;
+}
+#header {
+	position: absolute;
+	top: 0;
+	width: 960px;
+}
+#main {
+	background: #fff url("../img/bgHeaderShadow.png") no-repeat;
+	position: relative;
+	min-height: 495px;
+}
+#main .left {
+	float: left;
+	position: relative;
+	top: 0;
+	left: -732px;
+	width: 228px;
+}
+#main .left .inner {
+	margin: 0 14px;	
+}
+#main .right {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 228px;
+	width: 732px;
+}
+#main .right .inner {
+	margin: 13px 5px 0 7px;
+}
+#main .right .left {
+	float: left;
+	position: static;
+	width: 541px;
+}
+#main .right .left .inner {
+	margin: 0 5px 0 7px;
+}
+#main .right .right {
+	float: left;
+	position: static;
+	width: 191px;	
+}
+#main .right .right .inner {
+	margin: 0 14px;
+}
+#main .pageTitle {
+	padding: 10px 196px 10px 7px;
+}
+#main .pageTitle h1 {
+/*
+	max-height: 60px;
+*/
+}
+#main .pageTitle .toolpart {
+	margin-top: 7px;
+	float: right;
+}
+#main .pageTitle .toolpart ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#main .pageTitle .toolpart ul li{
+	 float: left;
+	 margin-left: 3px;
+}
+#main .pageTitle .toolpart ul li span {
+	display: block;
+	height: 22px;
+	width: 22px;overflow: hidden;
+	text-indent: -999px;
+}
+#main .pageTitle .toolpart ul li .mail{
+	background-position:0px -80px;
+}
+#main .pageTitle .toolpart ul li .pi{
+	background-position:-26px -80px;
+}
+#main .pageTitle .toolpart ul li .man{
+	background-position:-50px -80px;
+}
+#main .pageTitle .toolpart ul li .woman{
+	background-position:-75px -80px;
+}
+#footer {
+	background-color: #fff;
+	position: relative;
+}
+#bodybg {
+	 position: fixed;
+	 top: 0;
+	 left: 50%;
+}
+#bodybg img {
+	position: relative;
+	right: 50%;
+}
+.ie6 #bodybg {
+	display: none;
+}
+
+a.addthis_button_facebook.at300b,
+a.addthis_button_twitter.at300b,
+a.addthis_button_linkedin.at300b,
+a.addthis_button_google_plusone.at300b,
+.addthis_toolbox a.at300b,
+.addthis_default_style .at300b {
+	display: none !important;
+}
+
+.addthis_toolbox {
+	display:none;
+}

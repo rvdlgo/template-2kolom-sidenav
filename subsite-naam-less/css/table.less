@@ -1,0 +1,36 @@
+table{
+	box-sizing: border-box;
+	border: 1px solid @color-2!important;
+	width:100%;
+	margin:15px 0;
+	border: 0;
+}
+table thead{
+	background-color: lighten(@color-2, 10%)
+}
+table a,table li,table p{font-size:1em}
+table p,table ul,table ol{margin-bottom:0}
+table.table1 tr th,
+table.table1 tr td {
+  padding: 5px;
+}
+table.table1 tr th {
+  background-color: transparent;
+  color: @gray;
+  border-bottom: 0;
+}
+tr:nth-child(even) {
+	background-color: lighten(@color-2, 20%)
+		}
+tr:nth-child(odd) {background-color: transparent}
+
+table.table1 tr.alternate td, table.table1 tr.alternate th{
+	background-color:lighten(@color-2, 20%);
+}
+table.table1 tfoot{
+	font-style:italic;
+	margin: 4px 0;
+}
+table.table1 tfoot td{
+	  border:0;
+}

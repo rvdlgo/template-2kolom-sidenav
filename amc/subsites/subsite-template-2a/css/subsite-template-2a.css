@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic");
-@import url("https://fonts.googleapis.com/css?family=Signika:400,300");
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic);
+@import url(//fonts.googleapis.com/css?family=Signika:400,300);
 html,
 body {
   min-height: 100%;
@@ -119,7 +119,7 @@ h1 {
 }
 h2 {
   font-family: "Signika", sans-serif;
-  color: #9dc6d8;
+  color: #505050;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -145,9 +145,14 @@ h6 {
   margin-bottom: 5px;
 }
 a {
-  text-decoration: none;
   line-height: 1.25em;
-  color: #9dc6d8;
+  color: #458fb0;
+}
+a:hover{
+  color: #505050;
+}
+a:active{
+  background: #f2f2f2;
 }
 p {
   font-size: 1.5em;
@@ -303,13 +308,13 @@ a img:hover {
   border: 0;
 }
 .box .shadow {
-  background: transparent url("subsite-template-2a.css#") no-repeat right bottom;
+  background: transparent url(#) no-repeat right bottom;
   position: relative;
   left: 0;
   top: 0;
 }
 .box .shadow .topRight {
-  background: transparent url("subsite-template-2a.css#") no-repeat right top;
+  background: transparent url(#) no-repeat right top;
   position: absolute;
   height: 0;
   width: 0;
@@ -317,7 +322,7 @@ a img:hover {
   top: 0;
 }
 .box .shadow .bottomLeft {
-  background: transparent url("subsite-template-2a.css#") no-repeat left bottom;
+  background: transparent url(#) no-repeat left bottom;
   position: absolute;
   height: 0;
   width: 0;
@@ -638,7 +643,7 @@ form {
   padding: 10px;
 }
 .tabs .tabbar {
-  background: transparent url("subsite-template-2a.css#") no-repeat;
+  background: transparent url("#") no-repeat;
   height: 40px;
   overflow: hidden;
   border-bottom: 1px solid #b6b6b6;
@@ -811,7 +816,7 @@ form {
 .anchorelement ul li a {
   text-decoration: none;
   padding-right: 25px;
-  background: transparent url("../img/subsite-template-2a/anchor.png.html") no-repeat right;
+  background: transparent url("../img/subsite-template-2a/anchor.png") no-repeat right;
   font-size: 0.85em;
   color: #79b1c9;
 }
@@ -841,16 +846,11 @@ a.backtotop {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  margin-bottom: 10px;
 }
 .downloads ul li a:hover {
   text-decoration: none;
-  background: -moz-linear-gradient(top, rgba(242, 242, 242, 0.25) 0, rgba(242, 242, 242, 0.7) 51%, rgba(242, 242, 242, 0.8) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(242, 242, 242, 0.25)), color- stop(51%, rgba(242, 242, 242, 0.7)), color-stop(100%, rgba(242, 242, 242, 0.8)));
-  background: -webkit-linear-gradient(top, rgba(242, 242, 242, 0.25) 0, rgba(242, 242, 242, 0.7) 51%, rgba(242, 242, 242, 0.8) 100%);
-  background: -o-linear-gradient(top, rgba(242, 242, 242, 0.25) 0, rgba(242, 242, 242, 0.7) 51%, rgba(242, 242, 242, 0.8) 100%);
-  background: -ms-linear-gradient(top, rgba(242, 242, 242, 0.25) 0, rgba(242, 242, 242, 0.7) 51%, rgba(242, 242, 242, 0.8) 100%);
-  background: linear-gradient(to bottom, rgba(242, 242, 242, 0.25) 0, rgba(242, 242, 242, 0.7) 51%, rgba(242, 242, 242, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40f2f2f2', endColorstr='#ccf2f2f2', GradientType=0);
+  background-color: #fff;
   -webkit-box-shadow: 3px 3px 4px 0 rgba(50, 50, 50, 0.25);
   -moz-box-shadow: 3px 3px 4px 0 rgba(50, 50, 50, 0.25);
   box-shadow: 3px 3px 4px 0 rgba(50, 50, 50, 0.25);
